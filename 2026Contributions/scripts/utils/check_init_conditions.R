@@ -1,0 +1,11 @@
+steg_df <- readRDS("2026Contributions/EC_DWD_ROTH_clean.rds")
+init <- steg_df[steg_df$timestamp >= as.POSIXct("2019-01-01", tz="UTC"),][1,]
+cat(sprintf("Observed SMC_60cm at t=0: %.4f%% = %.6f m3/m3\n", init$SMC_60cm, init$SMC_60cm/100))
+cat(sprintf("Observed SMC_30cm at t=0: %.4f%% = %.6f m3/m3\n", init$SMC_30cm, init$SMC_30cm/100))
+cat(sprintf("Observed SMC_20cm at t=0: %.4f%% = %.6f m3/m3\n", init$SMC_20cm, init$SMC_20cm/100))
+cat(sprintf("Observed SMC_10cm at t=0: %.4f%% = %.6f m3/m3\n", init$SMC_10cm, init$SMC_10cm/100))
+cat(sprintf("Observed soil_temp10cm: %.2f C = %.2f K\n", init$soil_temp10cm, init$soil_temp10cm+273.15))
+cat(sprintf("\nOur Octave run passed swvl4 = SMC_60cm/100 = %.6f to input_constants()\n", init$SMC_60cm/100))
+cat(sprintf("MATLAB baseline starts at 60cm = 0.1950 m3/m3\n"))
+cat(sprintf("Octave continuous starts at 60cm = 0.1102 m3/m3\n"))
+cat(sprintf("Difference at t=0: %.4f m3/m3\n", 0.1950 - init$SMC_60cm/100))

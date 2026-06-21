@@ -1,0 +1,24 @@
+============================================================
+ Validation Summary: DE-STG | 2yr_continuous_final_octave_vs_oldmatlab
+ Period: 2019-01-01 to 2020-12-31
+ Aligned timesteps: 17543
+============================================================
+
+MATLAB vs Observations:
+  RMSE : 0.0390 m3/m3
+  Bias : -0.0234 m3/m3
+  r    : 0.883
+  KGE  : 0.835 (Alpha=0.985, Beta=0.884)
+
+Octave vs Observations:
+  RMSE : 0.1478 m3/m3
+  Bias : 0.1356 m3/m3
+  r    : 0.452
+  KGE  : 0.050 (Alpha=0.616, Beta=1.674)
+
+Engine Equivalence (MATLAB vs Octave):
+  RMSE : 0.1703 m3/m3
+  r    : 0.384
+
+Octave output: c:/Users/armanshirzad/Repos/rSTEMMUS_SCOPE/rSTEMMUS_SCOPE/output/DE-STG_DE-STG_2yr_continuous_final_2026Apr11_1836
+

@@ -1,0 +1,56 @@
+.Rproj.user
+.Rhistory
+.RData
+.Ruserdata
+.httr-oauth
+.DS_Store
+.quarto
+.Rdata
+doNOTcommit.R
+testthat.R
+
+# Generated/extracted data from archives
+rSTEMMUS_SCOPE/input/
+rSTEMMUS_SCOPE/runs/
+rSTEMMUS_SCOPE/output/
+
+# 1. Restore source code tracking but ignore heavy workspace/logs
+rSTEMMUS_SCOPE/src/octave-workspace
+rSTEMMUS_SCOPE/src/*.txt
+rSTEMMUS_SCOPE/src/*.log
+
+# 2. Private/Internal Research Files
+2026Contributions/armaninfo.md
+2026Contributions/email_draft_feb03.md
+2026Contributions/210126armanreport
+2026Contributions/Doc5Feb
+2026Contributions/*Report.md
+2026Contributions/*Report.pdf
+2026Contributions/*.log
+2026Contributions/terminaloutput*.png
+2026Contributions/11Feb2026/
+2026Contributions/13Feb2026/
+
+# 3. Large Data files
+2026Contributions/*.rds
+2026Contributions/*.csv
+
+#zip random
+windows_transfer.zip
+
+# Local tooling configuration
+.claude/
+
+# Local scratch debug scripts
+test_xlsx_native.m
+debug_*.m
+
+# Per-run wrapper logs (engine stdout/stderr live inside the gitignored
+# runs/SITE_RUN/ dirs already; this covers the R-wrapper log too).
+2026Contributions/logs/*.log
+
+# Local onboarding draft — kept out of git on purpose
+testonanotherdcomputerguide.md
+
+# Compiled STEMMUS_SCOPE binary (distribute via releases, not git)
+rSTEMMUS_SCOPE/src/STEMMUS_SCOPE_exe/

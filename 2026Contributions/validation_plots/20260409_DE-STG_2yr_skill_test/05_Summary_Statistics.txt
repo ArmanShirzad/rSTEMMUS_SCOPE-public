@@ -1,0 +1,24 @@
+============================================================
+ Validation Summary: DE-STG | 2yr_skill_test
+ Period: 2019-01-01 to 2020-12-31
+ Aligned timesteps: 17543
+============================================================
+
+MATLAB vs Observations:
+  RMSE : 0.0390 m3/m3
+  Bias : -0.0234 m3/m3
+  r    : 0.883
+  KGE  : 0.835 (Alpha=0.985, Beta=0.884)
+
+Octave vs Observations:
+  RMSE : 0.1485 m3/m3
+  Bias : 0.1363 m3/m3
+  r    : 0.448
+  KGE  : 0.042 (Alpha=0.606, Beta=1.677)
+
+Engine Equivalence (MATLAB vs Octave):
+  RMSE : 0.1711 m3/m3
+  r    : 0.372
+
+Octave output: C:/Users/armanshirzad/Repos/rSTEMMUS_SCOPE/2026Contributions/stitched_2yr_output
+

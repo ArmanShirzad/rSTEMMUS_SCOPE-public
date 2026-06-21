@@ -1,0 +1,33 @@
+============================================================
+ reference BIAS CORRECTION TEST
+ Hypothesis: Subtracting 0.10 from Octave SMC reveals that
+ the physical dynamics are correct and only a systematic
+ offset (programming artifact) separates Octave from observations.
+============================================================
+
+METRICS TABLE:
+                              MATLAB    Octave    Octave-0.1
+  RMSE (m3/m3)               0.0390     0.1478     0.0688
+  Bias (m3/m3)              -0.0234    +0.1356    +0.0356
+  Correlation (r)              0.883      0.452      0.452
+  KGE                         0.834      0.050      0.308
+
+FLUCTUATION ANALYSIS:
+  SD of hourly ΔSMC:
+    Observations: 0.000326 m3/m3/hr
+    MATLAB:       0.002084 m3/m3/hr
+    Octave:       0.001521 m3/m3/hr
+    Octave/Obs ratio: 4.67x
+
+  If ratio > 1: Octave has MORE high-frequency variability
+  than observations → likely numerical solver jitter, NOT physics.
+
+7-DAY SMOOTHED (bias-corrected):
+  RMSE: 0.0677 | r: 0.477
+
+INTERPRETATION:
+  - If Octave−0.10 KGE improves significantly → offset is systematic (fixable)
+  - If fluctuations vanish under 7d smoothing → jitter is numerical noise
+  - Since Octave uses SAME equations as MATLAB, fluctuations must come
+    from programming differences (solver tolerances, FP precision, etc.)
+
