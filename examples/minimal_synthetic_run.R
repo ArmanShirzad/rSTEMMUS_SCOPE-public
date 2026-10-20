@@ -6,9 +6,12 @@
 # input_timeseries, run_inMATLAB) on one day of synthetic hourly forcing, so
 # an installation can be checked end to end without any site observations.
 #
-# USAGE (from the repository root, after `Rscript bootstrap.R`):
+# USAGE (from the repository root, after bootstrap.R):
 #   Rscript examples/minimal_synthetic_run.R            # GNU Octave (free)
 #   Rscript examples/minimal_synthetic_run.R matlab     # or "mcr"
+# or from R / RStudio:
+#   source("examples/minimal_synthetic_run.R")          # GNU Octave
+#   Sys.setenv(STEMMUS_ENGINE = "matlab"); source("examples/minimal_synthetic_run.R")
 #
 # The forcing is idealised (clear-sky diurnal cycle, no rain), so the output
 # is checked for being finite and physically plausible, not for skill.
@@ -20,7 +23,7 @@
 # ============================================================================
 
 args <- commandArgs(trailingOnly = TRUE)
-execution_engine <- if (length(args)) args[1] else "octave"
+execution_engine <- if (length(args)) args[1] else Sys.getenv("STEMMUS_ENGINE", "octave")
 
 suppressMessages(devtools::load_all("."))
 suppressPackageStartupMessages(library(lubridate))

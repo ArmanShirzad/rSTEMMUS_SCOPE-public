@@ -21,24 +21,41 @@ fresh clone; nothing has to be downloaded from elsewhere.
 | | Needed | Notes |
 |:--|:--|:--|
 | R | 4.1 or newer | `bootstrap.R` installs every R package the workflow needs |
-| Git | any | to clone the repository |
+| Git | any (optional) | to clone the repository; without Git, use **Code → Download ZIP** on GitHub and unzip it |
 | One model engine | GNU Octave 8.0+ (free), MATLAB R2021a+, or the MATLAB Runtime with the compiled binary | see [Execution engines](#execution-engines); Octave is the free default |
 
-On Windows, R and Octave do not have to be on `PATH`: the standard install folders under `C:\Program Files`
-are searched automatically.
+Octave and MATLAB are found automatically in their standard install folders (on Windows under
+`C:\Program Files`); the Windows Octave installer already includes the `io` and `statistics` packages the
+model needs. Rtools is not needed.
+
+**Windows:** put the repository in a short folder outside OneDrive, for example `C:\rstemmus`. Folder names
+with spaces work, but very long paths do not (see [Troubleshooting](#troubleshooting)).
 
 ### 2. Install
 
-In a terminal:
+Get the repository (or download and unzip the ZIP instead):
 
 ```bash
 git clone https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public.git
-cd rSTEMMUS_SCOPE-public
-Rscript bootstrap.R
 ```
 
-`bootstrap.R` installs the CRAN and Bioconductor dependencies (the first time this can take several
-minutes), extracts the input templates in `rSTEMMUS_SCOPE/`, and runs `verify_install()`. It ends with:
+Then run `bootstrap.R` from the repository folder, in either of two ways:
+
+- **From R or RStudio (works on every system):**
+
+  ```r
+  setwd("C:/rstemmus/rSTEMMUS_SCOPE-public")   # the folder you cloned or unzipped
+  source("bootstrap.R")
+  ```
+
+- **From a terminal:** `Rscript bootstrap.R`, run inside the repository folder. On Windows the R installer
+  does not put `Rscript` on `PATH`, so a plain `Rscript` gives "not recognized"; use the full path instead,
+  e.g. `"C:\Program Files\R\R-4.5.3\bin\Rscript.exe" bootstrap.R` (adjust the R version), or use the R route
+  above.
+
+`bootstrap.R` installs the CRAN and Bioconductor dependencies as prebuilt packages (the first time this can
+take several minutes), extracts the input templates in `rSTEMMUS_SCOPE/`, and runs `verify_install()`.
+It ends with:
 
 ```
 PASS — ready to run simulations.
@@ -54,9 +71,19 @@ verify_install()
 
 ### 3. Check that the model runs (about 1 minute)
 
+From R or RStudio, in the repository folder:
+
+```r
+source("examples/minimal_synthetic_run.R")          # GNU Octave
+Sys.setenv(STEMMUS_ENGINE = "matlab")                # or MATLAB ("mcr" for the MATLAB Runtime) ...
+source("examples/minimal_synthetic_run.R")          # ... then run it again
+```
+
+or from a terminal (with the full `Rscript.exe` path on Windows, see step 2):
+
 ```bash
 Rscript examples/minimal_synthetic_run.R            # GNU Octave
-Rscript examples/minimal_synthetic_run.R matlab     # or MATLAB ("mcr" for the MATLAB Runtime)
+Rscript examples/minimal_synthetic_run.R matlab     # MATLAB
 ```
 
 This runs one synthetic summer day (24 hourly steps, no observations needed) through the complete workflow
@@ -112,10 +139,10 @@ It converts the units for you (°C to K, % to fraction), checks the installation
 it starts, and its `[SECTION 6]` shows how to run several simulations in parallel. Valid vegetation classes
 are listed by `info_IGBP_classes()`.
 
-**c. Run it** from the repository folder:
+**c. Run it** from the repository folder, in R / RStudio or a terminal:
 
-```bash
-Rscript roadmap_MySite.R
+```r
+source("roadmap_MySite.R")      # terminal: Rscript roadmap_MySite.R
 ```
 
 It prints `Status: SUCCESS` at the end. Inputs are written to `rSTEMMUS_SCOPE/runs/<site>_<run>/` (including
