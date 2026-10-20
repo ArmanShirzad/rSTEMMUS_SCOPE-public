@@ -1,0 +1,5266 @@
+warning: mkdir: directory exists
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.93 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 15.38 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.55 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.65 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.76 W m-2 
+ Energy balance error shaded vegetation = 0.48 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 16.49 W m-2 
+ Energy balance error shaded vegetation = 0.24 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.97 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.81 W m-2 
+ Energy balance error shaded vegetation = 0.27 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.11 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.02 W m-2 
+ Energy balance error shaded vegetation = 0.38 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.27 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 19.14 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.59 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.87 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.17 W m-2 
+ Energy balance error shaded vegetation = 0.26 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.87 W m-2 
+ Energy balance error shaded vegetation = 0.14 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.47 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 19.05 W m-2 
+ Energy balance error shaded vegetation = 0.21 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.16 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 14.35 W m-2 
+ Energy balance error shaded vegetation = 0.10 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 18.76 W m-2 
+ Energy balance error shaded vegetation = 0.05 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.56 W m-2 
+ Energy balance error shaded vegetation = 0.27 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 66.88 W m-2 
+ Energy balance error shaded vegetation = 0.43 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.73 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 60.99 W m-2 
+ Energy balance error shaded vegetation = 0.31 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.13 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 96.98 W m-2 
+ Energy balance error shaded vegetation = 0.06 W m-2 
+ Energy balance error soil              = 0.06 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 55.87 W m-2 
+ Energy balance error shaded vegetation = 0.34 W m-2 
+ Energy balance error soil              = 0.03 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.16 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.65 W m-2 
+ Energy balance error shaded vegetation = 0.43 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 78.79 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 108.40 W m-2 
+ Energy balance error shaded vegetation = 0.05 W m-2 
+ Energy balance error soil              = 0.16 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.02 W m-2 
+ Energy balance error shaded vegetation = 0.23 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 209.68 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 84.08 W m-2 
+ Energy balance error shaded vegetation = 0.08 W m-2 
+ Energy balance error soil              = 0.04 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.07 W m-2 
+ Energy balance error shaded vegetation = 0.04 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 247.41 W m-2 
+ Energy balance error shaded vegetation = 0.02 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 274.59 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 149.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.74 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.62 W m-2 
+ Energy balance error shaded vegetation = 0.03 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 13.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.55 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 66.73 W m-2 
+ Energy balance error shaded vegetation = 0.55 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 210.04 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 15.96 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 160.72 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 2091.32 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.01 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 51.99 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 51.12 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 59.24 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 63.07 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 2662.87 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 2515.47 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.26 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 2646.59 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 14.55 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 18.37 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 65.76 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.48 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 53.24 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.74 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 71.21 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.59 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 47.66 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.91 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.04 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.36 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.39 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.37 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 57.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 59.58 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.11 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 60.96 W m-2 
+ Energy balance error shaded vegetation = 0.07 W m-2 
+ Energy balance error soil              = 0.04 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.47 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.04 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.14 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.27 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 4.48 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.56 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.41 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 2206.81 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.81 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.62 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.70 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.99 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 60.52 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 4.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 49.77 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 76.57 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.57 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 57.76 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.20 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 56.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.34 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.47 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.29 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.69 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 5.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.38 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.20 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.83 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.23 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 53.40 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.96 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.72 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.74 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.31 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 53.27 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.39 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.34 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.69 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.21 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.54 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 53.68 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.18 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.70 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.83 W m-2 
+ Energy balance error shaded vegetation = 0.70 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.36 W m-2 
+ Energy balance error shaded vegetation = 1.48 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.92 W m-2 
+ Energy balance error shaded vegetation = 1.52 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.17 W m-2 
+ Energy balance error shaded vegetation = 0.69 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.88 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.92 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.83 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.32 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.23 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.31 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.21 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.39 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.70 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.36 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.35 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 53.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.91 W m-2 
+ Energy balance error shaded vegetation = 1.25 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.51 W m-2 
+ Energy balance error shaded vegetation = 3.88 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.49 W m-2 
+ Energy balance error shaded vegetation = 5.22 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 51.51 W m-2 
+ Energy balance error shaded vegetation = 30.86 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 49.60 W m-2 
+ Energy balance error shaded vegetation = 3.25 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 53.07 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.35 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.57 W m-2 
+ Energy balance error shaded vegetation = 2.44 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.90 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.60 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.02 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.81 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.37 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 58.23 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.65 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.54 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.56 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.22 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.86 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.48 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.23 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.89 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.80 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.68 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.11 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.26 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.37 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.84 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.35 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.93 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.16 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.92 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.52 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.38 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.63 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 18.24 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 14.12 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.26 W m-2 
+ Energy balance error shaded vegetation = 1.39 W m-2 
+ Energy balance error soil              = 2.49 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.35 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.95 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 5.90 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.84 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.89 W m-2 
+ Energy balance error shaded vegetation = 0.02 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 17.57 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.12 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 20.15 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.46 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.34 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.71 W m-2 
+ Energy balance error shaded vegetation = 0.04 W m-2 
+ Energy balance error soil              = 0.10 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.44 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.60 W m-2 
+ Energy balance error shaded vegetation = 0.23 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 19.36 W m-2 
+ Energy balance error shaded vegetation = 1.29 W m-2 
+ Energy balance error soil              = 4.09 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.17 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.55 W m-2 
+ Energy balance error shaded vegetation = 0.26 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.29 W m-2 
+ Energy balance error shaded vegetation = 0.21 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 12.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 13.34 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.78 W m-2 
+ Energy balance error shaded vegetation = 0.17 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.52 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 146.61 W m-2 
+ Energy balance error shaded vegetation = 0.16 W m-2 
+ Energy balance error soil              = 0.06 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 282.04 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.32 W m-2 
+ Energy balance error shaded vegetation = 0.19 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 51.42 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.87 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 247.46 W m-2 
+ Energy balance error shaded vegetation = 0.02 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 69.39 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 251.94 W m-2 
+ Energy balance error shaded vegetation = 0.03 W m-2 
+ Energy balance error soil              = 0.02 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 62.72 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 22.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 184.65 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.10 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 63.86 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.54 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.68 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 195.54 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.84 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 20.24 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 97.03 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 156.70 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 160.62 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.09 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.66 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 185.18 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 222.26 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 228.19 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 229.42 W m-2 
+ Energy balance error shaded vegetation = 0.01 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 168.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.28 W m-2 
+ Energy balance error shaded vegetation = 0.16 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 5.72 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 83.33 W m-2 
+ Energy balance error shaded vegetation = 0.20 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.33 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 11.64 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 12.92 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.10 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 13.06 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 85.73 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 932.90 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 944.05 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 994.62 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 11.98 W m-2 
+ Energy balance error shaded vegetation = 0.27 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 5.87 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 138.64 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.25 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 59.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.92 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 66.43 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 61.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 67.37 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 59.87 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.11 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 66.22 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 65.83 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.31 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.71 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.59 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 62.09 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 51.97 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.62 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 61.34 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.46 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 57.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 54.22 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 53.60 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.89 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 60.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.02 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.81 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 49.17 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.43 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.74 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 49.26 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.07 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.55 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.85 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.31 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.89 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.97 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.48 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.64 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.76 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 49.88 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.94 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.07 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.56 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.88 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.86 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.76 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.01 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.96 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.90 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.52 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.54 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.86 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.11 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.27 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.65 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 57.62 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.17 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 54.59 W m-2 
+ Energy balance error shaded vegetation = 0.02 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.24 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.27 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.99 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.15 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.16 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.12 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.17 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 52.20 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.21 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.14 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.81 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 4.90 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.10 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.86 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 47.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.07 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.33 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.35 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.46 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.93 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.63 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.16 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.60 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.94 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.29 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.78 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.12 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.08 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.78 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.28 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.22 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.46 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.12 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 20.58 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.56 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.17 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.50 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.05 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.99 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.62 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.84 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.72 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.51 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.92 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.62 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.59 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.25 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.02 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.00 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.73 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.54 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.01 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.58 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.84 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.91 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 43.33 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.89 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.14 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.74 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.87 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.93 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.17 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.14 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 19.21 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.71 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.08 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.83 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.40 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.29 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.28 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 40.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.55 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.65 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.63 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 16.43 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.69 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.18 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.10 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.09 W m-2 
+ Energy balance error shaded vegetation = 4.54 W m-2 
+ Energy balance error soil              = 0.01 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.60 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.04 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.36 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.31 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 18.45 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.24 W m-2 
+ Energy balance error shaded vegetation = 0.47 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.03 W m-2 
+ Energy balance error shaded vegetation = 1.61 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.40 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.61 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 19.33 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.51 W m-2 
+ Energy balance error shaded vegetation = 2.33 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.92 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.70 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.80 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.03 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.32 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.53 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 22.96 W m-2 
+ Energy balance error shaded vegetation = 10.15 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.09 W m-2 
+ Energy balance error shaded vegetation = 13.62 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.16 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.12 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 13.69 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.08 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 18.96 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.88 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.06 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.42 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.60 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.31 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.61 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.75 W m-2 
+ Energy balance error shaded vegetation = 0.54 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.02 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.73 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.63 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 13.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.95 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.06 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.91 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.51 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.66 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.14 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.81 W m-2 
+ Energy balance error shaded vegetation = 0.23 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.79 W m-2 
+ Energy balance error shaded vegetation = 0.19 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.45 W m-2 
+ Energy balance error shaded vegetation = 0.42 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.72 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.67 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 21.56 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.89 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.28 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.89 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.55 W m-2 
+ Energy balance error shaded vegetation = 0.04 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 22.63 W m-2 
+ Energy balance error shaded vegetation = 0.84 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.89 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.53 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.83 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 6.16 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.02 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.65 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 18.69 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.75 W m-2 
+ Energy balance error shaded vegetation = 15.10 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.68 W m-2 
+ Energy balance error shaded vegetation = 13.12 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.53 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.93 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.86 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.57 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 19.86 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 22.65 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.36 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.88 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.21 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.36 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.51 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.05 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.00 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.61 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.94 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.90 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.09 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.81 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 25.74 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.41 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 27.48 W m-2 
+ Energy balance error shaded vegetation = 0.44 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 26.00 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.94 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.50 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 58.08 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.96 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.64 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.43 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.32 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.47 W m-2 
+ Energy balance error shaded vegetation = 0.62 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 23.38 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.03 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.36 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 5.37 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.66 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 10.77 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 47.42 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.06 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 9.81 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 29.36 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 51.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 5.23 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 55.03 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 28.98 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 36.13 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 24.40 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.07 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.28 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.23 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.18 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.55 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.43 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.66 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 47.49 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.61 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.55 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 46.46 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 7.52 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.06 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 34.50 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 33.19 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.75 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.60 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 39.82 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.38 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 32.93 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.87 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.39 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.19 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.21 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 37.44 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 35.90 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 31.73 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 30.51 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.03 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 41.93 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.79 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 42.30 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 45.73 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 48.28 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 49.50 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 62.37 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 44.41 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 50.40 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 8.58 W m-2 
+ Energy balance error shaded vegetation = 0.05 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 13.94 W m-2 
+ Energy balance error shaded vegetation = 0.00 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+
+warning: 
+ warning: maximum number of iteratations exceeded
+ Energy balance error sunlit vegetation = 38.32 W m-2 
+ Energy balance error shaded vegetation = 0.17 W m-2 
+ Energy balance error soil              = 0.00 W m-2 
+warning: called from
+    ebal at line 431 column 9
+    STEMMUS_SCOPE at line 576 column 26
+

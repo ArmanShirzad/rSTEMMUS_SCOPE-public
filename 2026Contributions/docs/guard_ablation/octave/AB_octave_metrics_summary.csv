@@ -1,0 +1,5 @@
+"variable","r","RMSE","bias","engine","case"
+"canopy_LE_lEctot",0.958150502418075,6.5893955381478,-0.935905136222173,"Octave 11.1.0","2yr_correct_init"
+"total_ET_lEtot",0.93087211209684,16.5747055971439,-1.70117788310174,"Octave 11.1.0","2yr_correct_init"
+"soil_LE_lEstot",0.916319086423391,11.1844352925752,-0.765272133485847,"Octave 11.1.0","2yr_correct_init"
+"SMC_60cm",0.73808959074536,0.0581195289181717,0.0101871421037962,"Octave 11.1.0","2yr_correct_init"

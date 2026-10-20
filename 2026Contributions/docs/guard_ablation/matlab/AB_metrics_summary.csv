@@ -1,0 +1,16 @@
+variable,case,r,RMSE,bias_old_minus_new
+canopy_LE_lEctot,2yr_buggy,0.9764,4.826,0.417
+total_ET_lEtot,2yr_buggy,0.9581,12.847,0.912
+soil_LE_lEstot,2yr_buggy,0.9469,9.054,0.495
+SMC_60cm,2yr_buggy,0.8028,0.0505,0.0137
+SMC_surface,2yr_buggy,0.8621,0.0457,0.0026
+canopy_LE_lEctot,2mo_buggy,0.9995,0.172,0.0178
+total_ET_lEtot,2mo_buggy,0.9978,2.734,0.0951
+soil_LE_lEstot,2mo_buggy,0.9975,2.608,0.0773
+SMC_60cm,2mo_buggy,0.9733,0.0110,-0.0029
+SMC_surface,2mo_buggy,0.8940,0.0156,-0.0002
+canopy_LE_lEctot,2mo_correct,0.9994,0.167,0.0030
+total_ET_lEtot,2mo_correct,0.9689,9.576,0.1287
+soil_LE_lEstot,2mo_correct,0.9614,9.543,0.1257
+SMC_60cm,2mo_correct,0.9183,0.0495,-0.0403
+SMC_surface,2mo_correct,0.5070,0.0417,-0.0033

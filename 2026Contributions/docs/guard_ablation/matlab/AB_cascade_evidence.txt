@@ -1,0 +1,3 @@
+warning-cascade evidence:
+correct-init OLD (guards reverted): 2,252,805 warning lines, 425 MB log = the exact NaN/complex cascade documented in contribution.md #35
+correct-init NEW (guards on): 74 warning lines (stable)

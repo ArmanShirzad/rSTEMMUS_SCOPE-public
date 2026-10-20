@@ -14,11 +14,57 @@ install.packages("BiocManager")
 BiocManager::install("rhdf5")
 ```
 
+### Forcing data: what is and is not included
+
+The model source, the R package and the example input tree are all included and are downloaded or installed
+by the steps above. **Eddy-covariance observations are not included.** The Berlin-Steglitz (DE-STG) and TUB
+Campus Charlottenburg (TUCC) records used in our own runs are operated by the Chair of Climatology,
+Technische Universitaet Berlin, as part of the Urban Climate Observatory Berlin, and are available from the
+site operators on reasonable request.
+
+This matters if you clone the repository and run one of the scripts under
+`2026Contributions/scripts/runs/` directly. Several of them begin with a line such as
+
+```r
+steg_df <- readRDS("2026Contributions/EC_DWD_ROTH_clean.rds")
+```
+
+and that file is deliberately absent, so the script will stop there. The scripts are published as worked
+examples of how a site is configured end to end, not as runnable demonstrations. To run the model on your
+own site, copy `standardRoadmapLocation2.R` and point it at your own forcing file.
+
+**Checking your forcing file before you run.** The package ships a validator that catches the mistakes that
+otherwise surface only as nonsense output:
+
+```r
+devtools::load_all(".")
+validate_weather_rds("path/to/your_site.rds")
+```
+
+It asserts the 19 required columns, `POSIXct` timestamps, plausible ranges for air temperature, humidity,
+wind speed, radiation and pressure, and it detects the two unit traps that cost us the most time: soil
+moisture supplied as a percentage rather than a volumetric fraction, and soil temperature supplied in
+Celsius where Kelvin is expected.
+
+**Checking your installation before you run.**
+
+```r
+Rscript bootstrap.R      # installs CRAN and Bioconductor dependencies, prepares the model tree
+```
+
+```r
+verify_install()         # reports R version, packages, directories, and which engines were found
+```
+
+`verify_install()` returns a data frame with an `ok` column and a `fix_if_missing` column, so a failure tells
+you what to do rather than only that something is wrong.
+
+
 ### 🚀 Quick Start: Standard Roadmap Template
 
 The most efficient way to set up a new simulation is using our **Standard Roadmap Template**. It is machine-agnostic, handles unit conversions (e.g., Celsius to Kelvin), and supports high-performance parallel execution out-of-the-box.
 
-> **Template Path:** [`2026Contributions/scripts/runs/standardRoadmapLocation.R`](./2026Contributions/scripts/runs/standardRoadmapLocation.R)
+> **Template Path:** [`2026Contributions/scripts/runs/standardRoadmapLocation.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation.R)
 >
 > 1.  **Copy** the template and rename it (e.g., `roadmap_MySite.R`).
 > 2.  **Edit [SECTION 2]** with your site metadata and weather data path.
@@ -35,14 +81,14 @@ STEMMUS_SCOPE supports three execution engines (pick one — set via `exe_method
 |:--|:--|:--|:--|:--|
 | **MATLAB** | `"matlab"` (default) | Commercial | R2021a+ (uses the `-batch` flag) | Fastest on Windows |
 | **GNU Octave** | `"octave"` | Free (GPL) | 8.0+ — tested on 11.1.0 with `io` + `statistics` packages | Cross-platform; on Windows the bundled `tar.exe` is used to parse xlsx (no system `unzip` needed) |
-| **MATLAB Runtime** | `"mcr"` | Free, redistributable | Runtime pinned per release (current build: R2024a Runtime, ~3 GB from MathWorks) | Needs a precompiled `STEMMUS_SCOPE_exe` binary — download from project releases or build once with [src/compile_stemmus_scope.m](rSTEMMUS_SCOPE/src/compile_stemmus_scope.m) |
+| **MATLAB Runtime** | `"mcr"` | Free, redistributable | Runtime pinned per release (current build: R2024a Runtime, ~3 GB from MathWorks) | Needs a precompiled `STEMMUS_SCOPE_exe` binary — download from project releases or build once with [src/compile_stemmus_scope.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/compile_stemmus_scope.m) |
 
 The MATLAB code is downloaded and unzipped on first run via ```initial_setup()```.
 
 #### First-run troubleshooting
 
-- **R can't find Octave / MATLAB / MCR**: [run_inMATLAB.R](R/run_inMATLAB.R) searches `C:\Program Files\GNU Octave\*`, `C:\Program Files\MATLAB\R*`, and `C:\Program Files\MATLAB\MATLAB Runtime\v*` on Windows (and `/Applications`, `/usr/local/MATLAB`, `/opt/MATLAB` on Unix). If your install is elsewhere, prepend its `bin/` to `PATH` before `Rscript`, or set `STEMMUS_SCOPE_EXE` to the compiled binary path.
-- **Octave fails with `error: xlsopen ... unzip`**: Octave's `io` package shells out to `unzip` to read xlsx. On Windows installs without `unzip` on PATH, [src/+io/readXlsxNative.m](rSTEMMUS_SCOPE/src/+io/readXlsxNative.m) is used as a fallback (via the bundled `tar.exe`) — no action needed. If you also want `xlsread` itself to work, drop Info-ZIP `unzip.exe` into any PATH folder.
+- **R can't find Octave / MATLAB / MCR**: [run_inMATLAB.R](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/R/run_inMATLAB.R) searches `C:\Program Files\GNU Octave\*`, `C:\Program Files\MATLAB\R*`, and `C:\Program Files\MATLAB\MATLAB Runtime\v*` on Windows (and `/Applications`, `/usr/local/MATLAB`, `/opt/MATLAB` on Unix). If your install is elsewhere, prepend its `bin/` to `PATH` before `Rscript`, or set `STEMMUS_SCOPE_EXE` to the compiled binary path.
+- **Octave fails with `error: xlsopen ... unzip`**: Octave's `io` package shells out to `unzip` to read xlsx. On Windows installs without `unzip` on PATH, [src/+io/readXlsxNative.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/+io/readXlsxNative.m) is used as a fallback (via the bundled `tar.exe`) — no action needed. If you also want `xlsread` itself to work, drop Info-ZIP `unzip.exe` into any PATH folder.
 - **Background launches hang at timestep 0**: a known Windows quirk — if Rscript is launched without a console, the child engine deadlocks writing to a closed stdout. The wrapper now redirects engine output to `runs/SITE_RUN/engine_stdout.log` / `engine_stderr.log`; if you maintain a fork, mirror that redirection.
 - **Soil temperatures or SMC look physically impossible (e.g. −267 °C, 25 m³/m³)**: confirm you converted °C → K (`+273.15`) for `initial_soil_temperature` and `% → fraction` (`/100`) for `initial_volumetric_soil_water` before passing them to `input_constants()`. The roadmap template already does this.
 
@@ -135,7 +181,7 @@ note: change the patch according to the ```initial_setup()``` choice and include
 After collecting and organising the data required to run the model (see input variables below), there will be four steps (functions) to run a time series simulation for a specific location.
 [see here the steps](https://github.com/EcoExtreML/rSTEMMUS_SCOPE/blob/master/run_steps.md)
 
-> For a complete, automated recipe (including parallel setup), see the [Standard Roadmap Template](./2026Contributions/scripts/runs/standardRoadmapLocation.R).
+> For a complete, automated recipe (including parallel setup), see the [Standard Roadmap Template](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation.R).
 
 ------------------------------------------------------------------------
 
@@ -332,7 +378,7 @@ The definitive 2yr simulations with DE-STG Van Genuchten soil properties:
 | 30 cm | 0.841 | 0.041 | -0.002 |
 | 60 cm | 0.830 | 0.042 | -0.004 |
 
-> **Validation Plots:** [`2026Contributions/validation_plots_multidepth/`](./2026Contributions/validation_plots_multidepth/)
+> **Validation Plots:** [`2026Contributions/validation_plots_multidepth/`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/tree/main/2026Contributions/validation_plots_multidepth)
 
 ---
 
@@ -340,7 +386,7 @@ The definitive 2yr simulations with DE-STG Van Genuchten soil properties:
 
 To validate the multi-core architectural overhaul, a **5-core Parallel Smoke Test** was executed on 2026-03-06. The test successfully ran 5 concurrent 1-day simulations (24 timesteps each) with independent Leaf Area Index (LAI) multipliers for each process.
 
-> **Test Script:** [`2026Contributions/scripts/utils/test_parallel.R`](./2026Contributions/scripts/utils/test_parallel.R)
+> **Test Script:** [`2026Contributions/scripts/utils/test_parallel.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/utils/test_parallel.R)
 > **Hardware:** Apple M4 (10-core CPU)
 
 | Metric | Serial Execution (Old) | Parallel Execution (New) | Speedup |

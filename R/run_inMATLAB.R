@@ -58,16 +58,27 @@ run_inMATLAB <- function(patch = "D:/model/rSTEMMUS_SCOPE/",
     }
   }
   # change the config file ----
-  config_file <- utils::read.table(file = paste0(patch, "runs/", site_name,  "_", run_name, "/", site_name,"_", run_name, "_", "config.txt"))
-  
-  # Ensure OutputPath exists in config
-  # We might need to make this more robust, but following original pattern:
-  # Updating header 12 (OutputPath)
+  # Read config.txt line-by-line. IMPORTANT: use readLines(), NOT read.table().
+  # config.txt holds "key=value" lines, several of which are absolute install
+  # paths. If that path contains spaces (e.g. "C:/Users/Name/New folder/..."),
+  # read.table's default whitespace separator splits those lines into multiple
+  # columns and then fails on the first space-free line (StartTime) with
+  # "line 9 did not have N elements". readLines/writeLines are space-safe.
+  cfg_file_path <- paste0(patch, "runs/", site_name, "_", run_name, "/", site_name,"_", run_name, "_", "config.txt")
+  config_lines <- readLines(cfg_file_path)
+
+  # Ensure OutputPath exists in config — updating line 12 (OutputPath)
   config_path_out <- paste0(patch,"output/", site_name, "_", run_name, "_", format(Sys.time(), "%Y%b%d_%H%M"), "/")
-  config_file$V1[[12]] <- paste0("OutputPath=", config_path_out)
-  
-  utils::write.table(config_file, file = paste0(patch, "runs/", site_name, "_", run_name, "/", site_name,"_", run_name, "_", "config.txt"),
-                     quote = FALSE, col.names = FALSE, row.names = FALSE)
+  config_lines[[12]] <- paste0("OutputPath=", config_path_out)
+
+  # Create the output directory now, from R, BEFORE the engine runs. The Octave
+  # build does not reliably create OutputPath itself, so the model produced no
+  # output and the run_metadata.json write below then failed with
+  # "cannot open the connection". Creating it here guarantees both the engine
+  # and the metadata write have a destination (no-op if the engine also makes it).
+  dir.create(config_path_out, recursive = TRUE, showWarnings = FALSE)
+
+  writeLines(config_lines, cfg_file_path)
   
   # create path for the model to find the new input directory ----
   CFG = paste0(patch, "runs/", site_name, "_", run_name, "/", site_name,"_", run_name, "_", "config.txt")

@@ -42,7 +42,7 @@ Second step is to set all required static input parameters to run the model.
                  soil_property_list = Soil_property_CRNs, # see info_
                  startDOY = 121,    # day of the year starting the timeseries
                  endDOY = 274,      # day of the year ending the timeseries
-                 timezn = 1,        # timezone)
+                 timezn = 1)        # timezone
 ```
 **note:** see "get_SoilInitials()" for the initial_soil_temperature and initial_volumetric_soil_water, 
 "get_SoilProperties()" for soil_property_list, "info_SCOPE_options()" for setoptions, 
