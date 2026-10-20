@@ -1,208 +1,246 @@
-## README
-------------------------------------------------------------------------
-## rSTEMMUS_SCOPE
-Codes to run the STEMMUS_SCOPE model in MATLAB from R. Integrated code of SCOPE and STEMMUS. SCOPE is a radiative transfer and energy balance model (see https://github.com/AlbyDR/rSCOPE), and STEMMUS model is a two-phase mass and heat transfer model. For more information about the coupling between these two models, please check this [reference](https://gmd.copernicus.org/articles/14/1379/2021/). 
+# rSTEMMUS_SCOPE
 
-### To install rSTEMMUS_SCOPE, use:
-Clone this repository (it carries the fixed model source in `rSTEMMUS_SCOPE/src/`) and run the bootstrap
-script from the repository root:
-``` bash
+Run the STEMMUS_SCOPE model from R. STEMMUS_SCOPE couples SCOPE, a radiative transfer and energy balance
+model (see https://github.com/AlbyDR/rSCOPE), with STEMMUS, a two-phase mass and heat transfer model in the
+soil. For the coupling itself see this [reference](https://gmd.copernicus.org/articles/14/1379/2021/) and the
+[STEMMUS_SCOPE documentation](https://ecoextreml.github.io/STEMMUS_SCOPE).
+
+This repository contains the R package, the model source (`rSTEMMUS_SCOPE/src/`, with the 2026 fixes for
+Octave and MATLAB), the input templates, a smoke test and a site template. Everything below works from a
+fresh clone; nothing has to be downloaded from elsewhere.
+
+------------------------------------------------------------------------
+
+## Getting started
+
+### 1. Requirements
+
+| | Needed | Notes |
+|:--|:--|:--|
+| R | 4.1 or newer | `bootstrap.R` installs every R package the workflow needs |
+| Git | any | to clone the repository |
+| One model engine | GNU Octave 8.0+ (free), MATLAB R2021a+, or the MATLAB Runtime with the compiled binary | see [Execution engines](#execution-engines); Octave is the free default |
+
+On Windows, R and Octave do not have to be on `PATH`: the standard install folders under `C:\Program Files`
+are searched automatically.
+
+### 2. Install
+
+In a terminal:
+
+```bash
 git clone https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public.git
 cd rSTEMMUS_SCOPE-public
 Rscript bootstrap.R
 ```
-Then, in an R session started in that folder:
-``` r
-devtools::load_all(".")
+
+`bootstrap.R` installs the CRAN and Bioconductor dependencies (the first time this can take several
+minutes), extracts the input templates in `rSTEMMUS_SCOPE/`, and runs `verify_install()`. It ends with:
+
 ```
-Do not install from `EcoExtreML/rSTEMMUS_SCOPE` for this workflow: that is the upstream package, which
-does not include `verify_install()`, `validate_weather_rds()`, the Octave/MCR engines or the model fixes.
-`bootstrap.R` installs rhdf5 for you; to do it by hand:
-``` r
-install.packages("BiocManager")
-BiocManager::install("rhdf5")
+PASS — ready to run simulations.
 ```
 
-### Forcing data: what is and is not included
-
-The model source, the R package and the example input tree are all included and are downloaded or installed
-by the steps above. **Eddy-covariance observations are not included.** The Berlin-Steglitz (DE-STG) and TUB
-Campus Charlottenburg (TUCC) records used in our own runs are operated by the Chair of Climatology,
-Technische Universitaet Berlin, as part of the Urban Climate Observatory Berlin, and are available from the
-site operators on reasonable request.
-
-This matters if you clone the repository and run one of the scripts under
-`2026Contributions/scripts/runs/` directly. Several of them begin with a line such as
+If it prints `FAIL` or `PARTIAL` instead, each missing component is listed with the command that fixes it.
+You can repeat the check at any time from an R session started in the repository folder:
 
 ```r
-steg_df <- readRDS("2026Contributions/EC_DWD_ROTH_clean.rds")
+devtools::load_all(".")
+verify_install()
 ```
 
-and that file is deliberately absent, so the script will stop there. The scripts are published as worked
-examples of how a site is configured end to end, not as runnable demonstrations. To run the model on your
-own site, copy `standardRoadmapLocation2.R` and point it at your own forcing file.
+### 3. Check that the model runs (about 1 minute)
 
-**Checking your forcing file before you run.** The package ships a validator that catches the mistakes that
-otherwise surface only as nonsense output:
+```bash
+Rscript examples/minimal_synthetic_run.R            # GNU Octave
+Rscript examples/minimal_synthetic_run.R matlab     # or MATLAB ("mcr" for the MATLAB Runtime)
+```
+
+This runs one synthetic summer day (24 hourly steps, no observations needed) through the complete workflow
+and checks that the output is finite and physically plausible. It ends with:
+
+```
+  SMC 15 cm: 0.287 -> 0.302 m3/m3 | daily ET: 2.47 mm
+Smoke test PASSED
+```
+
+Results are written to `rSTEMMUS_SCOPE/output/SYN-01_smoke_<ENGINE>_<date>/`. Read
+[`examples/minimal_synthetic_run.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/examples/minimal_synthetic_run.R)
+as a complete, short example of the four steps described in [step 5](#5-the-four-functions-behind-a-run).
+
+### 4. Run your own site
+
+**a. Prepare the forcing file.** One `.rds` file holding a data frame with one row per time step (hourly)
+and these 19 columns:
+
+| column | content | unit |
+|:--|:--|:--|
+| `timestamp` | time of the step | `POSIXct`, UTC |
+| `Rin`, `Rli` | incoming shortwave and longwave radiation | W m-2 |
+| `p` | air pressure | hPa |
+| `Ta` | air temperature | °C |
+| `RH` | relative humidity | % |
+| `ea` | vapour pressure | hPa |
+| `ws` | wind speed | m s-1 |
+| `prec_mm_EC` | precipitation | mm per hour |
+| `LAI_FP` | leaf area index | m2 m-2 |
+| `co2_flux` | required by the validator, not used (CO2 is set to a constant in the template) | |
+| `soil_temp10cm`, `soil_temp20cm`, `soil_temp30cm`, `soil_temp50cm` | soil temperature; the first row is the initial condition | °C |
+| `SMC_10cm`, `SMC_20cm`, `SMC_30cm`, `SMC_60cm` | soil moisture; the first row is the initial condition | % (volumetric) |
+
+Check it before running anything. This catches the unit mistakes that otherwise only show up as nonsense
+output (soil moisture given as a fraction, soil temperature given in Kelvin):
 
 ```r
 devtools::load_all(".")
 validate_weather_rds("path/to/your_site.rds")
 ```
 
-It asserts the 19 required columns, `POSIXct` timestamps, plausible ranges for air temperature, humidity,
-wind speed, radiation and pressure, and it detects the two unit traps that cost us the most time: soil
-moisture supplied as a percentage rather than a volumetric fraction, and soil temperature supplied in
-Celsius where Kelvin is expected.
-
-**Checking your installation before you run.**
-
-```bash
-Rscript bootstrap.R      # (terminal) installs CRAN and Bioconductor dependencies, prepares the model tree
-```
+**b. Copy the template** and edit only its `[SECTION 2]` (site name, engine, time window, path to the forcing
+file, coordinates, elevation, vegetation class, canopy height):
 
 ```r
-verify_install()         # (R, from the repository root) reports R version, packages, directories, and which engines were found
+file.copy("2026Contributions/scripts/runs/standardRoadmapLocation2.R", "roadmap_MySite.R")
 ```
 
-`verify_install()` returns a data frame with an `ok` column and a `fix_if_missing` column, so a failure tells
-you what to do rather than only that something is wrong.
+The template is
+[`standardRoadmapLocation2.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation2.R).
+It converts the units for you (°C to K, % to fraction), checks the installation and the forcing file before
+it starts, and its `[SECTION 6]` shows how to run several simulations in parallel. Valid vegetation classes
+are listed by `info_IGBP_classes()`.
 
+**c. Run it** from the repository folder:
 
-### 🚀 Quick Start: Standard Roadmap Template
+```bash
+Rscript roadmap_MySite.R
+```
 
-The most efficient way to set up a new simulation is using our **Standard Roadmap Template**. It is machine-agnostic, handles unit conversions (e.g., Celsius to Kelvin), and supports high-performance parallel execution out-of-the-box.
+It prints `Status: SUCCESS` at the end. Inputs are written to `rSTEMMUS_SCOPE/runs/<site>_<run>/` (including
+`engine_stdout.log` and `engine_stderr.log`, the first place to look when a run fails) and results to
+`rSTEMMUS_SCOPE/output/<site>_<run>_<date>/`; see [Main model outputs](#main-model-outputs) for the files.
 
-> **Template Path:** [`2026Contributions/scripts/runs/standardRoadmapLocation2.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation2.R) (v2, with preflight checks; the older v1 [`standardRoadmapLocation.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation.R) is kept for reference)
->
-> 1.  **Copy** the template and rename it (e.g., `roadmap_MySite.R`).
-> 2.  **Edit [SECTION 2]** with your site metadata and weather data path.
-> 3.  **Run** the script to automatically generate inputs and launch the model.
+### 5. The four functions behind a run
 
----
-#### Model Documentation
+The template and the smoke test both call the same four functions. To write your own script, call them in
+this order (all paths relative to the repository folder; full argument lists in `?new_run` etc.):
 
-The documentation of the STEMMUS_SCOPE model can be found [here](https://ecoextreml.github.io/STEMMUS_SCOPE).
+```r
+devtools::load_all(".")
+patch <- paste0(getwd(), "/rSTEMMUS_SCOPE/")
 
-STEMMUS_SCOPE supports three execution engines (pick one — set via `exe_method` in `run_inMATLAB()`):
+# 1. create runs/<site>_<run>/ from the input templates
+new_run(patch = patch, StartTime = "2019-07-01T00:00", EndTime = "2019-07-01T23:00",
+        site_name = "MY-SITE", run_name = "run01")
+
+# 2. site constants and initial conditions
+#    soil temperature in Kelvin, soil moisture as a volumetric fraction (m3 m-3)
+input_constants(patch = patch, site_name = "MY-SITE", run_name = "run01",
+                LAT = 52.46, LON = 13.32, elevation = 50,
+                IGBP_veg_long = "Grassland", hc = 0.5,
+                n_timestamps = 24, timestep_min = 60,
+                initial_soil_temperature = data.frame(skt = 290.15, stl1 = 290.15, stl2 = 289.15,
+                                                      stl3 = 288.15, stl4 = 287.15),
+                initial_volumetric_soil_water = data.frame(swvl1 = 0.25, swvl2 = 0.26,
+                                                           swvl3 = 0.27, swvl4 = 0.28),
+                startDOY = 182, endDOY = 182, timezn = 1)
+
+# 3. time series, one value per step (units in section 1.1 below);
+#    my_forcing is your data frame, my_doy its decimal day of year
+input_timeseries(patch = patch, site_name = "MY-SITE", run_name = "run01",
+                 t_file = my_doy, year_file = my_year,
+                 Rin_file = my_forcing$Rin, Rli_file = my_forcing$Rli, p_file = my_forcing$p,
+                 Ta_file = my_forcing$Ta, RH_file = my_forcing$RH, ea_file = my_forcing$ea,
+                 VPD_file = my_vpd, u_file = my_forcing$ws,
+                 rain_file = my_forcing$prec_mm_EC / 36000,      # mm per hour -> cm s-1
+                 LAI_file = my_forcing$LAI_FP, CO2_file = rep(415, 24))
+
+# 4. run the model
+run_inMATLAB(patch = patch, site_name = "MY-SITE", run_name = "run01",
+             exe_method = "octave")                             # or "matlab" / "mcr"
+```
+
+[`run_steps.md`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/run_steps.md) walks through
+the same steps for a half-hourly case and then shows how to read and plot `Sim_Theta.csv` and `fluxes.csv`
+and score them against observations.
+
+------------------------------------------------------------------------
+
+## Forcing data: what is and is not included
+
+The model source, the R package and the input templates are all in this repository. **Eddy-covariance
+observations are not included.** The Berlin-Steglitz (DE-STG) and TUB Campus Charlottenburg (TUCC) records
+used in our own runs are operated by the Chair of Climatology, Technische Universitaet Berlin, as part of the
+Urban Climate Observatory Berlin, and are available from the site operators on reasonable request.
+
+This matters if you run one of the scripts under `2026Contributions/scripts/runs/` directly. Several of them
+begin with a line such as
+
+```r
+steg_df <- readRDS("2026Contributions/EC_DWD_ROTH_clean.rds")
+```
+
+and that file is deliberately absent, so the script stops there. Those scripts are published as worked
+examples of how our sites were configured, not as runnable demonstrations. For your own site, use the
+template as described in [step 4](#4-run-your-own-site).
+
+------------------------------------------------------------------------
+
+## Execution engines
+
+Pick one with `exe_method` in `run_inMATLAB()` (the template sets it in `[SECTION 2]`):
 
 | Engine | `exe_method` | License | Required version | Notes |
 |:--|:--|:--|:--|:--|
-| **MATLAB** | `"matlab"` (default) | Commercial | R2021a+ (uses the `-batch` flag) | Fastest on Windows |
 | **GNU Octave** | `"octave"` | Free (GPL) | 8.0+ — tested on 11.1.0 with `io` + `statistics` packages | Cross-platform; on Windows the bundled `tar.exe` is used to parse xlsx (no system `unzip` needed) |
+| **MATLAB** | `"matlab"` (the function default) | Commercial | R2021a+ (uses the `-batch` flag) | Fastest on Windows |
 | **MATLAB Runtime** | `"mcr"` | Free, redistributable | Runtime pinned per release (current build: R2024a Runtime, ~3 GB from MathWorks) | Needs a precompiled `STEMMUS_SCOPE_exe` binary — download from project releases or build once with [src/compile_stemmus_scope.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/compile_stemmus_scope.m) |
 
-In a clone the MATLAB code is already in `rSTEMMUS_SCOPE/src/`; ```initial_setup()``` (called by `bootstrap.R`) only extracts `input.7z` and `runs.7z`. It never unpacks `src.zip` over `src/`, because `src.zip` is an older snapshot without the fixes.
+For the same input, MATLAB and Octave give the same smoke-test result; the 2-year engine comparison is in the
+[Simulation Run Catalog](#-simulation-run-catalog).
 
-#### First-run troubleshooting
+------------------------------------------------------------------------
+
+## Troubleshooting
 
 - **R can't find Octave / MATLAB / MCR**: [run_inMATLAB.R](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/R/run_inMATLAB.R) searches `C:\Program Files\GNU Octave\*`, `C:\Program Files\MATLAB\R*`, and `C:\Program Files\MATLAB\MATLAB Runtime\v*` on Windows (and `/Applications`, `/usr/local/MATLAB`, `/opt/MATLAB` on Unix). If your install is elsewhere, prepend its `bin/` to `PATH` before `Rscript`, or set `STEMMUS_SCOPE_EXE` to the compiled binary path.
-- **Octave fails with `error: xlsopen ... unzip`**: Octave's `io` package shells out to `unzip` to read xlsx. On Windows installs without `unzip` on PATH, [src/+io/readXlsxNative.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/+io/readXlsxNative.m) is used as a fallback (via the bundled `tar.exe`) — no action needed. If you also want `xlsread` itself to work, drop Info-ZIP `unzip.exe` into any PATH folder.
-- **Background launches hang at timestep 0**: a known Windows quirk — if Rscript is launched without a console, the child engine deadlocks writing to a closed stdout. The wrapper now redirects engine output to `runs/SITE_RUN/engine_stdout.log` / `engine_stderr.log`; if you maintain a fork, mirror that redirection.
-- **Soil temperatures or SMC look physically impossible (e.g. −267 °C, 25 m³/m³)**: confirm you converted °C → K (`+273.15`) for `initial_soil_temperature` and `% → fraction` (`/100`) for `initial_volumetric_soil_water` before passing them to `input_constants()`. The roadmap template already does this.
-
-**Recent Key Features & Functional Changes:**
-
-1. **`R/run_inMATLAB.R` Updates:**
-   Dropped hardcoded CPU core limits and added cross-platform smart path detection + an Octave execution fallback.
-   ```R
-   if (octave) {
-     cmd <- sprintf("cd '%s' && octave --no-gui --silent --eval 'STEMMUS_SCOPE; exit'", src_dir)
-   } else {
-     # MATLAB Exec (Auto-detecting Path for Windows/Mac/Linux)
-     if (.Platform$OS.type == "unix") {
-       mac_apps <- list.files("/Applications", pattern = "^MATLAB_R", full.names = TRUE)
-     ...
-   ```
-
-2. **`rSTEMMUS_SCOPE/src/STEMMUS_SCOPE.m` (New):**
-   838 new lines of MATLAB code were added to serve as the unified root execution script.
-   ```matlab
-   % Create execution paths dynamically
-   d1 = pwd;
-   % adding path of STEMMUS_SCOPE model: default dir=src
-   addpath(d1)
-   ...
-   t_cpu = cputime;
-   StartInit
-   [Simu_Step] = Initial_root_biomass(Simu_Step);
-   ```
-
-3. **`run_simulation_background.sh` (New):**
-   A background shell scripting tool was added to securely run simulations using `nohup`.
-   ```bash
-   # Run the simulation in the background using nohup
-   nohup Rscript -e "
-     source('R/run_inMATLAB.R')
-     run_inMATLAB(patch = '${PATCH_DIR}', cores = ${CORES}, octave = ${OCTAVE})
-   " > "$LOG_FILE" 2>&1 &
-   ```
-
-4. **`recover_csv.m` (New):**
-   A standalone MATLAB script to rescue or process simulated variable outputs into clean CSV formats without failing the model trace.
-   ```matlab
-   function recover_csv(directory_path)
-   ...
-       vars_to_extract = {
-           'Sim_Theta',... % soil moisture profile
-           'Sim_TempE',... % soil temperature profile
-           'Sim_Trns', ... % Transpiration (W m-2)
-   ...
-       for i = 1:length(vars_to_extract)
-           var_name = vars_to_extract{i};
-           file_path = fullfile(run_dir, [var_name, '.mat']);
-   ...
-           csvwrite(csv_path, var_data);
-   ```
-
-**directory structure**
-
-After run ```initial_setup(patch = "D:/model/rSTEMMUS_SCOPE/")```, the following structure should be created.
-
-```
-D:/model/rSTEMMUS_SCOPE/
-   - input/
-     - directional/
-     - fluspect_parameters/
-     - leafangles/
-     - radiationdata/
-     - soil_spectrum/
-     - files (template_config.txt, Mdata.txt, input_data.xls, forcing_globals.mat, soil_parameters.mat and soil_init.mat)
-   - output/
-      - AR-SLu_2024-01-25-0911 (output example)
-   - runs/
-      - file (path.txt)
-      - AR-SLu_2024-01-25-0911 (input example)
-   - src/
-      - ... (MATLAB codes)
-```
-
-To check the installation end to end, run the minimal smoke test from the repository root. It runs the four
-steps below on one day of synthetic forcing (no observations needed) and checks that the output is finite and
-physically plausible:
-
-```bash
-Rscript examples/minimal_synthetic_run.R            # GNU Octave; pass "matlab" or "mcr" for the other engines
-```
-
-The bundled AR-SLu example run can also be used, but its config file holds absolute `D:/model/rSTEMMUS_SCOPE/`
-paths, so it only works when the model tree is at exactly that location:
-
-```r
-run_inMATLAB(patch = "D:/model/rSTEMMUS_SCOPE/",
-             site_name = "AR-SLu",
-             run_name = "2024-01-25-0911")
-```
-             
-------------------------------------------------------------------------
-After collecting and organising the data required to run the model (see input variables below), there will be four steps (functions) to run a time series simulation for a specific location.
-[see here the steps](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/run_steps.md)
-
-> For a complete, automated recipe (including parallel setup), see the [Standard Roadmap Template](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation2.R).
+- **A run finishes but the output folder is empty**: read `rSTEMMUS_SCOPE/runs/<site>_<run>/engine_stderr.log`; the engine's error is there, not in the R console.
+- **`git clone` fails on Windows with `Filename too long`**: clone into a short folder (for example `C:\Users\<you>\rstemmus`), or enable long paths once with `git config --global core.longpaths true`.
+- **Octave fails with `error: xlsopen ... unzip`**: Octave's `io` package shells out to `unzip` to read xlsx. On Windows installs without `unzip` on PATH, [src/+io/readXlsxNative.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/+io/readXlsxNative.m) is used as a fallback (via the bundled `tar.exe`) — no action needed.
+- **Background launches hang at timestep 0**: if Rscript is launched without a console on Windows, the engine would deadlock writing to a closed stdout. `run_inMATLAB()` redirects engine output to `engine_stdout.log` / `engine_stderr.log` in the run folder to avoid this.
+- **Soil temperatures or SMC look physically impossible (e.g. −267 °C, 25 m³/m³)**: `input_constants()` takes soil temperature in Kelvin (`+273.15`) and soil moisture as a fraction (`/100`). The template does both conversions; `validate_weather_rds()` flags a forcing file in the wrong units.
+- **You installed from another copy or fork of this repository** and results differ from ours: older versions of `initial_setup()` unpacked `rSTEMMUS_SCOPE/src.zip` (the original upstream code) over `src/` and so removed the model fixes. Clone this repository again and rerun `Rscript bootstrap.R`. Do not unzip `src.zip` by hand.
+- **The upstream package** `EcoExtreML/rSTEMMUS_SCOPE` is not the same code: it has no `verify_install()`, `validate_weather_rds()`, Octave or MCR support, and none of the model fixes. Use this repository as described above.
 
 ------------------------------------------------------------------------
 
-**Main model outputs from the simulations**
+## Repository layout
+
+```
+rSTEMMUS_SCOPE-public/
+├── bootstrap.R                  one-command setup (step 2)
+├── R/                           the R package: new_run(), input_constants(), input_timeseries(),
+│                                run_inMATLAB(), verify_install(), validate_weather_rds(), ...
+├── examples/
+│   └── minimal_synthetic_run.R  smoke test (step 3)
+├── run_steps.md                 the four steps plus output analysis
+├── rSTEMMUS_SCOPE/              the model tree ("patch" in the R functions)
+│   ├── src/                     STEMMUS_SCOPE model code (MATLAB/Octave)
+│   ├── input/                   input templates   (extracted from input.7z by bootstrap.R)
+│   ├── runs/                    one folder per run (extracted from runs.7z, then filled by new_run())
+│   └── output/                  one folder per run with the results
+├── 2026Contributions/
+│   ├── scripts/runs/            site template (standardRoadmapLocation2.R) and our site scripts
+│   └── docs/, validation_plots*/  validation and ablation results
+└── tools/check_docs.R           checks that the R code in these docs runs and the links resolve
+```
+
+`rSTEMMUS_SCOPE/runs/AR-SLu_2024-01-25-0911/` is the example run shipped with the upstream input templates.
+Its config file holds absolute `D:/model/rSTEMMUS_SCOPE/` paths, so it only runs with the model tree at exactly
+that location; use the smoke test instead.
+
+------------------------------------------------------------------------
+
+## Main model outputs
 
 | output file | variable                     |   unit    | observation         |
 |:-------|:-----------------------------|:---------:|:--------------------|
@@ -326,18 +364,24 @@ note: data from CDS ERA5 Land
 
 ### To download global maps to extract the above variables run the follow code:
 
-```
+```r
+devtools::load_all(".")
+patch <- paste0(getwd(), "/rSTEMMUS_SCOPE/")
+
 # the file is 24GB, so you may need more time ...
-# download, unzip in the folder ../input/SoilProperty/ using ...                       
-download_SoilProperty("D:/model/rSTEMMUS_SCOPE/", timeout = 1000)   
+# downloads and unzips into rSTEMMUS_SCOPE/input/SoilProperty/
+download_SoilProperty(patch, timeout = 1000)
 
 # extract to your location using the argument latitude and longitude (+proj=longlat +datum=WGS8)
-Soil_property_loc1 <- get_SoilProperties(patch = "D:/model/rSTEMMUS_SCOPE/input/SoilProperty/",
+Soil_property_loc1 <- get_SoilProperties(patch = paste0(patch, "input/SoilProperty/"),
                                          lon = 107.688,
                                          lat = 37.829)
 ```
 
-##### note: you can also download manually from https://zenodo.org/api/records/15488066/files/SoilProperty.zip/content, then unzip and place it in "D:/model/rSTEMMUS_SCOPE/input/" or inside the "input" folder in your patch choice
+Pass the result to `input_constants(..., soil_property_list = Soil_property_loc1)`; in the template this is the
+commented `soil_property_list` line in `[SECTION 4]`.
+
+##### note: you can also download manually from https://zenodo.org/api/records/15488066/files/SoilProperty.zip/content, then unzip it into `rSTEMMUS_SCOPE/input/` of your clone
 ------------------------------------------------------------------------
 #### 1.5 Constants and model settings
 Use functions of the family "info", "check" and "change" to get more information about which constant (model parameters) and model settings from STEMMUS and SCOPE can be changed to calibrate the model for the site characteristics.
