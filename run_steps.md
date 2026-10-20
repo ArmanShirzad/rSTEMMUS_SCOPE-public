@@ -1,14 +1,22 @@
 ## Sequency of steps to run one time series location
 
+Start R in the repository folder after `Rscript bootstrap.R` (see the README). `patch` is the model tree of
+the clone; all four functions take it.
+
 ``` r
-library(rSTEMMUSSCOPE)
+devtools::load_all(".")
+patch <- paste0(getwd(), "/rSTEMMUS_SCOPE/")
 ```
+
+A short, runnable version of these steps on synthetic data is
+[`examples/minimal_synthetic_run.R`](examples/minimal_synthetic_run.R). The objects used below
+(`Initial_01June23`, `Soil_property_CRNs`, `ts_DWD`, ...) stand for your own site data.
 
 First step is to create the input/output folders and patch to run the model.
 
 #### set up the input folder for the location
 ``` r
-new_run(patch = "D:/model/rSTEMMUS_SCOPE/", # model (src) location
+new_run(patch = patch,                      # model tree of the clone
         StartTime = "2023-06-01T00:00",    # datatime starts the timeseries
         EndTime = "2023-11-30T23:00",      # datatime ends the timeseries
         site_name = "DE-HoH",              # location name
@@ -20,7 +28,7 @@ Second step is to set all required static input parameters to run the model.
 
 #### set up the static inputs for the location
 ``` r
- input_constants(patch = "D:/model/rSTEMMUS_SCOPE/", # model (src) location
+ input_constants(patch = patch,                      # model tree of the clone
                  site_name = "DE-HoH",              # location name
                  run_name = "ECdata_01",            # run name for this settings (calibration)
                  LAT = 51.25,
@@ -54,7 +62,7 @@ Third step is to set all required time series input data to run the model (see R
 
 #### set up the input folder for the location
 ``` r
-input_timeseries(patch = "D:/model/rSTEMMUS_SCOPE/",  # model (src) location
+input_timeseries(patch = patch,                       # model tree of the clone
                  site_name = "DE-HoH",               # location name
                  run_name = "ECdata_01",             # run name for this settings (calibration)
                  t_file =	ts_DWD$t_,                # Decimal Julian Day (doy_float)
@@ -73,16 +81,19 @@ input_timeseries(patch = "D:/model/rSTEMMUS_SCOPE/",  # model (src) location
                  LAI_file =	LAI500_Modis$LAI)       # Leaf Area Index [m2 m-2] (LAI >= 0.01)
 ```
 
-Last step is to run the model by informing the site_name and run_name. The MATLAB path need to be set to "D:/model/STEMMUS_SCOPE/src/".
+Last step is to run the model by informing the site_name and run_name, and choosing the engine.
 
 
 ``` r
-run_inMATLAB(patch = "D:/model/rSTEMMUS_SCOPE/", # model (src) location
+run_inMATLAB(patch = patch,                      # model tree of the clone
              site_name = "DE-HoH",               # location name
-             run_name = "ECdata_01")             # run name for this settings (calibration)
+             run_name = "ECdata_01",             # run name for this settings (calibration)
+             exe_method = "octave")              # "octave" (free), "matlab" or "mcr"
 ```
 
-MATLAB will open and the model will start to run, when the last timestamp is run, the window will be closed and the results will be available in the output folder.
+The engine runs without a window; R waits until the last timestamp is done. The results are then in
+`rSTEMMUS_SCOPE/output/<site>_<run>_<date>/`, and the engine's messages in
+`rSTEMMUS_SCOPE/runs/<site>_<run>/engine_stdout.log` and `engine_stderr.log`.
 
 ## Check the output simulation
 ``` r
@@ -94,7 +105,7 @@ library(hydroGOF)
 
 #### SWC simulations output
 ``` r
-Sim_Theta_files <- list.files(path = "D:/model/rSTEMMUS_SCOPE/output/",
+Sim_Theta_files <- list.files(path = paste0(patch, "output/"),
                               pattern = "Sim_Theta", full.names=T, recursive=T)
 
 # to subset a group by the run name if needed
@@ -173,7 +184,7 @@ hydroGOF::KGE(CRNs_obs_daily$SM_C01, SMC001_default_doy$dept_15_2, out.type = "f
 
 #### Fluxes simulation output
 ``` r
-Sim_Fluxes_files <- list.files(path = "D:/model/rSTEMMUS_SCOPE/output/",
+Sim_Fluxes_files <- list.files(path = paste0(patch, "output/"),
                                pattern = "fluxes", full.names=T, recursive=T)
 
 # to subset a group by the run name if needed

@@ -9,8 +9,8 @@ Description: This package compile functions to run STEMMUS-SCOPE by preparing an
 License: use_gpl_license(version = 3, include_future = TRUE)
 Encoding: UTF-8
 LazyData: true
-URL: https://github.com/EcoExtreML/rSTEMMUS_SCOPE
-BugReports: https://github.com/EcoExtreML/rSTEMMUS_SCOPE/issues
+URL: https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public
+BugReports: https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/issues
 RoxygenNote: 7.3.2
 Roxygen: list(markdown = TRUE)
 Depends: R (>= 4.1.0)
