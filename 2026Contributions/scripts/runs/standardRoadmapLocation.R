@@ -74,7 +74,7 @@ patch_path <- paste0(getwd(), "/rSTEMMUS_SCOPE/")
 
 # Verify critical directories exist
 stopifnot(
-  "src/ directory missing — did you extract src.zip?" = dir.exists(paste0(patch_path, "src/")),
+  "src/ directory missing — re-clone the repository" = dir.exists(paste0(patch_path, "src/")),
   "input/ directory missing — did you extract input.7z?" = dir.exists(paste0(patch_path, "input/"))
 )
 

@@ -208,9 +208,8 @@ run_inMATLAB <- function(patch = "D:/model/rSTEMMUS_SCOPE/",
            "  1. Compile it yourself (requires MATLAB + MATLAB Compiler, one-time):\n",
            "     >> cd('", paste0(patch, "src/"), "')\n",
            "     >> compile_stemmus_scope\n",
-           "  2. Download pre-compiled binary from project releases.\n",
-           "  3. Use exe_method='octave' instead (free, no compilation needed).\n",
-           "  4. Set STEMMUS_SCOPE_EXE environment variable to the binary path.")
+           "  2. Use exe_method='octave' instead (free, no compilation needed).\n",
+           "  3. Set STEMMUS_SCOPE_EXE environment variable to the binary path.")
     }
     
     message(paste("Using compiled STEMMUS_SCOPE at:", mcr_exe))

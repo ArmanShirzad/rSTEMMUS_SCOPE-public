@@ -28,9 +28,9 @@ This is a function to prepare the STEMMUS_SCOPE (Matlab) codes and required  mod
 
 When \code{patch} already holds the model tree of a cloned repository (\code{src/} plus
 \code{input.7z}), nothing is downloaded: only \code{input.7z} and \code{runs.7z} are
-extracted. An existing \code{src/} is never overwritten and the archives are kept,
-because \code{src.zip} is an older snapshot of the model code and unpacking it
-over \code{src/} would silently revert the Octave/MATLAB fixes.
+extracted. An existing \code{src/} is never overwritten (older versions unpacked
+the upstream \code{src.zip} over it, which silently reverted the Octave/MATLAB
+fixes) and the archives are kept.
 }
 \examples{
 
