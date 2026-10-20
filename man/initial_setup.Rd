@@ -4,10 +4,17 @@
 \alias{initial_setup}
 \title{to create a input folder with required files to run the model}
 \usage{
-initial_setup(patch = "D:/model/rSTEMMUS_SCOPE/")
+initial_setup(
+  patch = "D:/model/rSTEMMUS_SCOPE/",
+  source_url =
+    "https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/archive/refs/heads/main.zip"
+)
 }
 \arguments{
 \item{patch}{the path to the STEMMUS_SCOPE downloaded, example:\code{"D:/models/rSTEMMUS_SCOPE/"}.}
+
+\item{source_url}{zip archive of the repository to take the model tree from when
+\code{patch} does not hold one yet. Defaults to this fork, which carries the fixed \code{src/}.}
 }
 \value{
 It return a message that shows the main path to run all the functions.
@@ -18,6 +25,12 @@ It return a message that shows the main path to run all the functions.
 \details{
 This is a function to prepare the STEMMUS_SCOPE (Matlab) codes and required  model inputs.
 \strong{important} It is only needed once after install the package as initial setup
+
+When \code{patch} already holds the model tree of a cloned repository (\code{src/} plus
+\code{input.7z}), nothing is downloaded: only \code{input.7z} and \code{runs.7z} are
+extracted. An existing \code{src/} is never overwritten and the archives are kept,
+because \code{src.zip} is an older snapshot of the model code and unpacking it
+over \code{src/} would silently revert the Octave/MATLAB fixes.
 }
 \examples{
 

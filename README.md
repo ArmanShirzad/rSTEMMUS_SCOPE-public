@@ -4,11 +4,20 @@
 Codes to run the STEMMUS_SCOPE model in MATLAB from R. Integrated code of SCOPE and STEMMUS. SCOPE is a radiative transfer and energy balance model (see https://github.com/AlbyDR/rSCOPE), and STEMMUS model is a two-phase mass and heat transfer model. For more information about the coupling between these two models, please check this [reference](https://gmd.copernicus.org/articles/14/1379/2021/). 
 
 ### To install rSTEMMUS_SCOPE, use:
-``` r
-devtools::install_github("EcoExtreML/rSTEMMUS_SCOPE")
-library(rSTEMMUSSCOPE)
+Clone this repository (it carries the fixed model source in `rSTEMMUS_SCOPE/src/`) and run the bootstrap
+script from the repository root:
+``` bash
+git clone https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public.git
+cd rSTEMMUS_SCOPE-public
+Rscript bootstrap.R
 ```
-You may need to install the rhdf5 package before using BiocManager, as shown below.
+Then, in an R session started in that folder:
+``` r
+devtools::load_all(".")
+```
+Do not install from `EcoExtreML/rSTEMMUS_SCOPE` for this workflow: that is the upstream package, which
+does not include `verify_install()`, `validate_weather_rds()`, the Octave/MCR engines or the model fixes.
+`bootstrap.R` installs rhdf5 for you; to do it by hand:
 ``` r
 install.packages("BiocManager")
 BiocManager::install("rhdf5")
@@ -48,12 +57,12 @@ Celsius where Kelvin is expected.
 
 **Checking your installation before you run.**
 
-```r
-Rscript bootstrap.R      # installs CRAN and Bioconductor dependencies, prepares the model tree
+```bash
+Rscript bootstrap.R      # (terminal) installs CRAN and Bioconductor dependencies, prepares the model tree
 ```
 
 ```r
-verify_install()         # reports R version, packages, directories, and which engines were found
+verify_install()         # (R, from the repository root) reports R version, packages, directories, and which engines were found
 ```
 
 `verify_install()` returns a data frame with an `ok` column and a `fix_if_missing` column, so a failure tells
@@ -64,7 +73,7 @@ you what to do rather than only that something is wrong.
 
 The most efficient way to set up a new simulation is using our **Standard Roadmap Template**. It is machine-agnostic, handles unit conversions (e.g., Celsius to Kelvin), and supports high-performance parallel execution out-of-the-box.
 
-> **Template Path:** [`2026Contributions/scripts/runs/standardRoadmapLocation.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation.R)
+> **Template Path:** [`2026Contributions/scripts/runs/standardRoadmapLocation2.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation2.R) (v2, with preflight checks; the older v1 [`standardRoadmapLocation.R`](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation.R) is kept for reference)
 >
 > 1.  **Copy** the template and rename it (e.g., `roadmap_MySite.R`).
 > 2.  **Edit [SECTION 2]** with your site metadata and weather data path.
@@ -83,7 +92,7 @@ STEMMUS_SCOPE supports three execution engines (pick one — set via `exe_method
 | **GNU Octave** | `"octave"` | Free (GPL) | 8.0+ — tested on 11.1.0 with `io` + `statistics` packages | Cross-platform; on Windows the bundled `tar.exe` is used to parse xlsx (no system `unzip` needed) |
 | **MATLAB Runtime** | `"mcr"` | Free, redistributable | Runtime pinned per release (current build: R2024a Runtime, ~3 GB from MathWorks) | Needs a precompiled `STEMMUS_SCOPE_exe` binary — download from project releases or build once with [src/compile_stemmus_scope.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/compile_stemmus_scope.m) |
 
-The MATLAB code is downloaded and unzipped on first run via ```initial_setup()```.
+In a clone the MATLAB code is already in `rSTEMMUS_SCOPE/src/`; ```initial_setup()``` (called by `bootstrap.R`) only extracts `input.7z` and `runs.7z`. It never unpacks `src.zip` over `src/`, because `src.zip` is an older snapshot without the fixes.
 
 #### First-run troubleshooting
 
@@ -168,20 +177,28 @@ D:/model/rSTEMMUS_SCOPE/
       - ... (MATLAB codes)
 ```
 
-To check the installation by running the test dataset as below.
+To check the installation end to end, run the minimal smoke test from the repository root. It runs the four
+steps below on one day of synthetic forcing (no observations needed) and checks that the output is finite and
+physically plausible:
 
+```bash
+Rscript examples/minimal_synthetic_run.R            # GNU Octave; pass "matlab" or "mcr" for the other engines
 ```
+
+The bundled AR-SLu example run can also be used, but its config file holds absolute `D:/model/rSTEMMUS_SCOPE/`
+paths, so it only works when the model tree is at exactly that location:
+
+```r
 run_inMATLAB(patch = "D:/model/rSTEMMUS_SCOPE/",
              site_name = "AR-SLu",
              run_name = "2024-01-25-0911")
-```             
-note: change the patch according to the ```initial_setup()``` choice and include the patch in MATLAB ```"D:/model/rSTEMMUS_SCOPE/src/"```
+```
              
 ------------------------------------------------------------------------
 After collecting and organising the data required to run the model (see input variables below), there will be four steps (functions) to run a time series simulation for a specific location.
-[see here the steps](https://github.com/EcoExtreML/rSTEMMUS_SCOPE/blob/master/run_steps.md)
+[see here the steps](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/run_steps.md)
 
-> For a complete, automated recipe (including parallel setup), see the [Standard Roadmap Template](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation.R).
+> For a complete, automated recipe (including parallel setup), see the [Standard Roadmap Template](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/2026Contributions/scripts/runs/standardRoadmapLocation2.R).
 
 ------------------------------------------------------------------------
 
@@ -272,7 +289,7 @@ After collecting and organising the data required to run the model (see input va
 | symbol | variable | unit | observation |
 |:-----------|:-----------|:----------:|:------------------------------------|
 | SWC | Initial soil water content | m3 m-3 | “volumetric soil water” layer 1 to 4 (swvl1, swvl2, swvl3, swvl4) |
-| Ts | Initial soil temperature | °C | "Skin temperature” (skt) and “Soil temperature” level 1 to 4 (stl1, stl2, stl3, stl4) |
+| Ts | Initial soil temperature | K | "Skin temperature” (skt) and “Soil temperature” level 1 to 4 (stl1, stl2, stl3, stl4); pass Kelvin as ERA5-Land delivers it, `input_constants()` converts to °C |
 
 note: data from CDS ERA5 Land
 
