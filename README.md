@@ -5,6 +5,9 @@ model (see https://github.com/AlbyDR/rSCOPE), with STEMMUS, a two-phase mass and
 soil. For the coupling itself see this [reference](https://gmd.copernicus.org/articles/14/1379/2021/) and the
 [STEMMUS_SCOPE documentation](https://ecoextreml.github.io/STEMMUS_SCOPE).
 
+Based on the [rSTEMMUS_SCOPE](https://github.com/EcoExtreML/rSTEMMUS_SCOPE) package by Alby Duarte Rocha
+(EcoExtreML); 2026 Octave/MATLAB/MCR fixes, setup tooling and validation by Arman Shirzad.
+
 This repository contains the R package, the model source (`rSTEMMUS_SCOPE/src/`, with the 2026 fixes for
 Octave and MATLAB), the input templates, a smoke test and a site template. Everything below works from a
 fresh clone; nothing has to be downloaded from elsewhere.
@@ -193,7 +196,7 @@ Pick one with `exe_method` in `run_inMATLAB()` (the template sets it in `[SECTIO
 |:--|:--|:--|:--|:--|
 | **GNU Octave** | `"octave"` | Free (GPL) | 8.0+ — tested on 11.1.0 with `io` + `statistics` packages | Cross-platform; on Windows the bundled `tar.exe` is used to parse xlsx (no system `unzip` needed) |
 | **MATLAB** | `"matlab"` (the function default) | Commercial | R2021a+ (uses the `-batch` flag) | Fastest on Windows |
-| **MATLAB Runtime** | `"mcr"` | Free, redistributable | Runtime pinned per release (current build: R2024a Runtime, ~3 GB from MathWorks) | Needs a precompiled `STEMMUS_SCOPE_exe` binary — download from project releases or build once with [src/compile_stemmus_scope.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/compile_stemmus_scope.m) |
+| **MATLAB Runtime** | `"mcr"` | Free, redistributable | R2024a Runtime (~3 GB, free from MathWorks) | Needs a `STEMMUS_SCOPE_exe` binary built once with [src/compile_stemmus_scope.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/compile_stemmus_scope.m) on a machine with MATLAB + MATLAB Compiler; no prebuilt binary is published. Without MATLAB, use Octave |
 
 For the same input, MATLAB and Octave give the same smoke-test result; the 2-year engine comparison is in the
 [Simulation Run Catalog](#-simulation-run-catalog).
@@ -208,7 +211,7 @@ For the same input, MATLAB and Octave give the same smoke-test result; the 2-yea
 - **Octave fails with `error: xlsopen ... unzip`**: Octave's `io` package shells out to `unzip` to read xlsx. On Windows installs without `unzip` on PATH, [src/+io/readXlsxNative.m](https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public/blob/main/rSTEMMUS_SCOPE/src/+io/readXlsxNative.m) is used as a fallback (via the bundled `tar.exe`) — no action needed.
 - **Background launches hang at timestep 0**: if Rscript is launched without a console on Windows, the engine would deadlock writing to a closed stdout. `run_inMATLAB()` redirects engine output to `engine_stdout.log` / `engine_stderr.log` in the run folder to avoid this.
 - **Soil temperatures or SMC look physically impossible (e.g. −267 °C, 25 m³/m³)**: `input_constants()` takes soil temperature in Kelvin (`+273.15`) and soil moisture as a fraction (`/100`). The template does both conversions; `validate_weather_rds()` flags a forcing file in the wrong units.
-- **You installed from another copy or fork of this repository** and results differ from ours: older versions of `initial_setup()` unpacked `rSTEMMUS_SCOPE/src.zip` (the original upstream code) over `src/` and so removed the model fixes. Clone this repository again and rerun `Rscript bootstrap.R`. Do not unzip `src.zip` by hand.
+- **You installed from another copy or fork of this repository** and results differ from ours: older versions of `initial_setup()` unpacked `rSTEMMUS_SCOPE/src.zip` (the original upstream code) over `src/` and so removed the model fixes. Clone this repository again and rerun `Rscript bootstrap.R`; `src.zip` is no longer part of the repository.
 - **The upstream package** `EcoExtreML/rSTEMMUS_SCOPE` is not the same code: it has no `verify_install()`, `validate_weather_rds()`, Octave or MCR support, and none of the model fixes. Use this repository as described above.
 
 ------------------------------------------------------------------------
@@ -490,6 +493,6 @@ To validate the multi-core architectural overhaul, a **5-core Parallel Smoke Tes
 | ✅ | MATLAB NaN/complex cascade with site-specific Van Genuchten parameters | **Fixed Apr 22** — defensive guards in 5 files |
 | ✅ | Octave xlsx read on Windows (`unzip` missing from PATH) | **Fixed May 21** — pure-Octave `readXlsxNative.m` via `tar.exe` |
 | 🟡 | Octave dry-period collapse (SMC → 0 in Jul–Oct 2020) | `theta_r` floor guard added in `calculateTheta_LL.m`; 2yr rerun in progress |
-| 🟡 | MCR clean-machine validation (Windows box without MATLAB installed) | Manual step — binary attached to GitHub Release |
+| 🟡 | MCR clean-machine validation (Windows box without MATLAB installed) | Manual step — binary is built locally with `compile_stemmus_scope.m`, not published yet |
 
 </details>

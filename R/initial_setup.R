@@ -9,9 +9,9 @@
 #'
 #' When `patch` already holds the model tree of a cloned repository (`src/` plus
 #' `input.7z`), nothing is downloaded: only `input.7z` and `runs.7z` are
-#' extracted. An existing `src/` is never overwritten and the archives are kept,
-#' because `src.zip` is an older snapshot of the model code and unpacking it
-#' over `src/` would silently revert the Octave/MATLAB fixes.
+#' extracted. An existing `src/` is never overwritten (older versions unpacked
+#' the upstream `src.zip` over it, which silently reverted the Octave/MATLAB
+#' fixes) and the archives are kept.
 #'
 #' @param patch the path to the STEMMUS_SCOPE downloaded, example:```"D:/models/rSTEMMUS_SCOPE/"```.
 #' @param source_url zip archive of the repository to take the model tree from when
@@ -60,7 +60,8 @@ file.copy(list.files(model_tree, full.names = TRUE), patch,
 unlink(tmp_dir, recursive = TRUE)
 }
 
-# src.zip is only a fallback for a tree without src/
+# src.zip (upstream layout, e.g. with source_url pointing upstream) is only
+# a fallback for a tree without src/
 if (!dir.exists(paste0(patch, "src/")) && file.exists(paste0(patch, "src.zip"))) {
   utils::unzip(paste0(patch, "src.zip"), exdir = patch)
 }

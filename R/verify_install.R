@@ -60,7 +60,7 @@ verify_install <- function(patch = paste0(getwd(), "/rSTEMMUS_SCOPE/"),
   src_dir   <- paste0(patch, "src/")
   input_dir <- paste0(patch, "input/")
   add("src",   "rSTEMMUS_SCOPE/src/",   dir.exists(src_dir),   src_dir,
-      "Re-clone the repository or run initial_setup() (do not unzip src.zip: it is an older snapshot)")
+      "Re-clone the repository or run initial_setup()")
   add("input", "rSTEMMUS_SCOPE/input/", dir.exists(input_dir), input_dir,
       "Run initial_setup() or extract input.7z")
 
@@ -122,7 +122,7 @@ verify_install <- function(patch = paste0(getwd(), "/rSTEMMUS_SCOPE/"),
   add("mcr", "MCR binary (engine option, license-free)",
       length(mcr_bin) > 0,
       if (length(mcr_bin)) mcr_bin[1] else "not found",
-      "Download STEMMUS_SCOPE_exe from project Release page, or compile via src/compile_stemmus_scope.m")
+      "Compile once via src/compile_stemmus_scope.m (needs MATLAB + MATLAB Compiler), or use Octave")
 
   out <- do.call(rbind, rows)
   rownames(out) <- NULL

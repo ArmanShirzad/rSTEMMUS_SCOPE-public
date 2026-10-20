@@ -31,8 +31,8 @@
 #       "octave" : GNU Octave >= 8.0 (free, with `io` + `statistics` packages)
 #       "matlab" : MATLAB R2021a+   (requires license, uses -batch)
 #       "mcr"    : MATLAB Runtime R2024a (free; needs precompiled binary —
-#                   either compile once with src/compile_stemmus_scope.m or
-#                   download from the project Release page)
+#                   compile it once with src/compile_stemmus_scope.m,
+#                   which needs MATLAB + MATLAB Compiler)
 #   - R packages: tidyverse, lubridate, devtools, jsonlite, BioC rhdf5
 #     (run `Rscript bootstrap.R` once from the repo root to install all)
 # ============================================================================
