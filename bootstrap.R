@@ -32,8 +32,13 @@ cat(sprintf("R %s — OK\n", getRversion()))
 # 1. CRAN packages — `archive` is required for initial_setup() to extract
 #    input.7z / runs.7z; without it the unpacking silently fails and
 #    new_run() later crashes with "more 'from' files than 'to' files".
-cran_pkgs <- c("tidyverse", "lubridate", "devtools", "jsonlite",
-               "parallel", "BiocManager", "archive", "filesstrings")
+#    The package's own Imports are read from DESCRIPTION, because
+#    devtools::load_all() below refuses to run while any of them is missing.
+desc_imports <- strsplit(read.dcf("DESCRIPTION", fields = "Imports")[1, 1], ",")[[1]]
+desc_imports <- sub("[[:space:]]*\\(.*$", "", trimws(desc_imports))
+cran_pkgs <- unique(c("tidyverse", "lubridate", "devtools", "jsonlite",
+                      "parallel", "BiocManager", "archive", "filesstrings",
+                      setdiff(desc_imports, c("", "rhdf5"))))   # rhdf5 is BioC, step 2
 missing_cran <- cran_pkgs[!vapply(cran_pkgs,
                                   requireNamespace,
                                   logical(1),
