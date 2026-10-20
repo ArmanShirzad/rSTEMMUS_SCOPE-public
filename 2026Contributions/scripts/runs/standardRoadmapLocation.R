@@ -56,7 +56,7 @@ library(parallel)  # Required for multi-core parallelization (Mac/Linux)
 if (!dir.exists(paste0(getwd(), "/rSTEMMUS_SCOPE/input/"))) {
   message("First run detected — input/ directory not found.")
   message("Running initial_setup() to download template files...")
-  initial_setup()
+  initial_setup(patch = paste0(getwd(), "/rSTEMMUS_SCOPE/"))
   message("initial_setup() complete.")
 } else {
   message("Input directory found — skipping initial_setup().")

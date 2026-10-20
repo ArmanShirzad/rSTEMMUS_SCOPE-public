@@ -1,0 +1,17 @@
+name: docs
+
+# Parses every R code block in the Markdown docs and checks that links into
+# this repository point at files that exist (see tools/check_docs.R).
+on:
+  push:
+    paths: ["**.md", "tools/check_docs.R", ".github/workflows/docs.yml"]
+  pull_request:
+    paths: ["**.md", "tools/check_docs.R", ".github/workflows/docs.yml"]
+
+jobs:
+  check-docs:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: r-lib/actions/setup-r@v2
+      - run: Rscript tools/check_docs.R

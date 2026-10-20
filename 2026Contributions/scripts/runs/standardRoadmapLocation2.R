@@ -59,7 +59,7 @@ if (!dir.exists(paste0(patch_path, "src/")) ||
     !dir.exists(paste0(patch_path, "input/"))) {
   message("First-run detected — running initial_setup() to download ",
           "model source + input templates ...")
-  initial_setup()
+  initial_setup(patch = patch_path)
 }
 
 # Preflight: surface missing R packages, missing model dirs, missing

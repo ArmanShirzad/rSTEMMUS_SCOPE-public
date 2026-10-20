@@ -60,7 +60,7 @@ verify_install <- function(patch = paste0(getwd(), "/rSTEMMUS_SCOPE/"),
   src_dir   <- paste0(patch, "src/")
   input_dir <- paste0(patch, "input/")
   add("src",   "rSTEMMUS_SCOPE/src/",   dir.exists(src_dir),   src_dir,
-      "Run initial_setup() or extract src.zip")
+      "Re-clone the repository or run initial_setup() (do not unzip src.zip: it is an older snapshot)")
   add("input", "rSTEMMUS_SCOPE/input/", dir.exists(input_dir), input_dir,
       "Run initial_setup() or extract input.7z")
 
