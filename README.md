@@ -215,6 +215,45 @@ template as described in [step 4](#4-run-your-own-site).
 
 ------------------------------------------------------------------------
 
+## Reproducing the results of Aljoumani et al. (Computers & Geosciences)
+
+This section maps the results of the accompanying manuscript, *Beyond numerical parity: a process-based
+framework for verifying cross-platform ports of coupled ecohydrological models, demonstrated with
+STEMMUS-SCOPE in GNU Octave*, to the scripts and archived outputs in this repository.
+
+**Site names.** The benchmark site called **ROTH** (Rothenburgstrasse, Berlin-Steglitz) in the manuscript
+appears as **DE-STG** or *Steglitz* in file and folder names here. The second site is **TUCC**
+(TU Berlin Campus Charlottenburg).
+
+**Observations.** The ROTH and TUCC eddy-covariance and soil-moisture observations are not redistributed
+(see [Forcing data](#forcing-data-what-is-and-is-not-included)). Scripts that read them stop at that line;
+everything that does not need observations (the model runs with your own forcing, the engine-to-engine
+comparisons from archived outputs, and the guard-ablation statistics) can be reproduced from this repository.
+
+| Manuscript result | Script(s) | Archived output |
+|:--|:--|:--|
+| Two-year ROTH runs, MATLAB / Octave / MCR | `2026Contributions/scripts/runs/run_2yr_final_with_soilprops.R` (set `exe_method <- "matlab"` before sourcing for MATLAB; default Octave, pre-θr), `run_2yr_final_OCTAVE_thetaR.R` (Octave with the θr safeguard), `run_2yr_final_MCR.R` (MCR) | output folders listed in `2026Contributions/logs/` |
+| Table 3: the ten numerical guards | model source, files listed in `2026Contributions/docs/guard_ablation/README.md` | – |
+| Table 4 and Fig. 2: guard ablation (OLD vs NEW), MATLAB arm | `python 2026Contributions/docs/guard_ablation/reproduce_guard_ablation.py` | `2026Contributions/docs/guard_ablation/matlab/` |
+| Table 5: solver warnings and zero-collapse counts | same script (collapse counts); warning counts in `matlab/AB_cascade_evidence.txt` and `octave/AB_octave_engine_stderr.log` | `2026Contributions/docs/guard_ablation/` |
+| Table 6: guard ablation, Octave arm | same script | `2026Contributions/docs/guard_ablation/octave/` |
+| Table 7: soil moisture at 60 cm vs observations (incl. θr safeguard) | `2026Contributions/scripts/validation/mcr_vs_matlab_vs_octave_metrics.R`, `smc_4way_with_thetaR.R` | `validation_plots/20260521_mcr_3way/`, `validation_plots/20260522_octave_thetaR/` |
+| Table 8 and Fig. 3: engine parity by depth (10–60 cm) | `2026Contributions/scripts/validation/validate_multi_depth.R` | `2026Contributions/validation_plots_multidepth/` |
+| Table 9 and Fig. 4: latent heat vs observations | `2026Contributions/scripts/validation/et_4way_validation.R` | `validation_plots/20260522_et_4way/` |
+| Section 5.5: biochemical module, MATLAB vs Octave | `2026Contributions/scripts/utils/test_biochem.m` | – |
+| Table 10: TUCC portability | `2026Contributions/scripts/runs/run_TUCC_3engines.ps1` (calls `run_TUCC_2yr_MATLAB.R`, `run_TUCC_2yr_OCTAVE.R`, `run_TUCC_2yr_MCR.R`) | – |
+| Table 11: 25-variable consistency across engines and code states | `2026Contributions/scripts/validation/multivar_consistency.R` | `2026Contributions/docs/multivar_consistency/` |
+| Appendix A.4, Fig. A1, Table A1: zero-rain experiment | `2026Contributions/scripts/runs/roadmapSeglitz_3d_Zerorain.R`, `2026Contributions/scripts/validation/validate_3d_zerorain.R` | `2026Contributions/validation_plots_3d_zerorain/` |
+
+**Guard ablation.** `reproduce_guard_ablation.py` (Python 3 with pandas, numpy and matplotlib) recomputes the
+two-year OLD-versus-NEW agreement and the zero-collapse counts from the archived time series and redraws the
+60 cm figure; it needs no model run. To repeat the ablation itself, the unguarded versions of the ten files
+are in `2026Contributions/docs/guard_ablation/unguarded_src/`, and `make_unguarded_copy.R` in the same folder
+installs them into a second copy of the repository; the step-by-step procedure is in
+`2026Contributions/docs/guard_ablation/README.md`.
+
+------------------------------------------------------------------------
+
 ## Execution engines
 
 Pick one with `exe_method` in `run_inMATLAB()` (the template sets it in `[SECTION 2]`):
@@ -420,7 +459,7 @@ Use functions of the family "info", "check" and "change" to get more information
 
 ## 🧭 Simulation Run Catalog
 
-All simulation runs executed during the 2026 development cycle for the Steglitz (DE-STG) site.
+All simulation runs executed during the 2026 development cycle for the Steglitz site (DE-STG; called ROTH in the manuscript).
 
 <details>
 <summary><b>All Runs & Validation Results (Click to Expand)</b></summary>
@@ -519,7 +558,22 @@ To validate the multi-core architectural overhaul, a **5-core Parallel Smoke Tes
 | ✅ | Multi-depth engine parity | **PASS** at 10, 20, 30, 60 cm (May 10, MATLAB↔Octave bias < 0.004 m³/m³ at every depth) |
 | ✅ | MATLAB NaN/complex cascade with site-specific Van Genuchten parameters | **Fixed Apr 22** — defensive guards in 5 files |
 | ✅ | Octave xlsx read on Windows (`unzip` missing from PATH) | **Fixed May 21** — pure-Octave `readXlsxNative.m` via `tar.exe` |
-| 🟡 | Octave dry-period collapse (SMC → 0 in Jul–Oct 2020) | `theta_r` floor guard added in `calculateTheta_LL.m`; 2yr rerun in progress |
+| ✅ | Octave dry-period collapse (SMC → 0 in Jul–Oct 2020) | **Fixed** — `theta_r` floor guard in `calculateTheta_LL.m`; two-year Octave rerun completed (`run_2yr_final_OCTAVE_thetaR.R`, results in `validation_plots/20260522_octave_thetaR/`) |
 | 🟡 | MCR clean-machine validation (Windows box without MATLAB installed) | Manual step — binary is built locally with `compile_stemmus_scope.m`, not published yet |
 
 </details>
+
+------------------------------------------------------------------------
+
+## How to cite
+
+If you use this code, please cite the archived software release and the accompanying manuscript:
+
+- Shirzad, A., & Aljoumani, B. (2026). *rSTEMMUS_SCOPE: Octave/MATLAB/MCR multi-engine execution of
+  STEMMUS-SCOPE from R* [Computer software]. Zenodo. DOI: see the Zenodo badge of the release used.
+- Aljoumani, B., Shirzad, A., Duarte Rocha, A., Zeng, Y., Meier, F., & Wallis, C. I. B. *Beyond numerical
+  parity: a process-based framework for verifying cross-platform ports of coupled ecohydrological models,
+  demonstrated with STEMMUS-SCOPE in GNU Octave.* Submitted to Computers & Geosciences.
+
+Please also cite the original rSTEMMUS_SCOPE package (Duarte Rocha, EcoExtreML) and STEMMUS-SCOPE
+(Wang et al., 2021, https://doi.org/10.5194/gmd-14-1379-2021).

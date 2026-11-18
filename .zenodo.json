@@ -1,0 +1,11 @@
+{
+  "title": "rSTEMMUS_SCOPE: Octave/MATLAB/MCR multi-engine execution of STEMMUS-SCOPE from R",
+  "upload_type": "software",
+  "description": "R interface and numerical hardening for STEMMUS-SCOPE, adding GNU Octave and MATLAB Runtime (MCR) execution alongside MATLAB, with ten defensive numerical guards validated by a guard-ablation experiment. Includes the run and validation scripts, archived ablation outputs and a mapping of every result in the accompanying Computers & Geosciences manuscript to the script that produces it (README, section 'Reproducing the results').",
+  "license": "GPL-3.0-only",
+  "creators": [
+    {"name": "Shirzad, Arman"},
+    {"name": "Aljoumani, Basem", "affiliation": "Technische Universität Berlin"}
+  ],
+  "keywords": ["STEMMUS-SCOPE", "GNU Octave", "MATLAB Runtime", "reproducibility", "ecohydrology", "R"]
+}

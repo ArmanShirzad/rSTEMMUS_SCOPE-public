@@ -59,6 +59,35 @@ against 0.774.
 
 ## Reproducing
 
-Revert the ten files listed above to their pre-hardening versions in a separate copy of `src/`, then run the
-model from that copy with an otherwise unchanged configuration. Keep the working tree untouched so the
-guarded build remains available for comparison.
+The statistics and the 60 cm figure can be recomputed from the archived time series without running the
+model:
+
+```bash
+python 2026Contributions/docs/guard_ablation/reproduce_guard_ablation.py
+```
+
+This writes `reproduced_guard_ablation_metrics.csv` (r, RMSE and bias between the two builds, and the number of
+time steps with soil moisture collapsed to zero) and `reproduced_guard_ablation_smc60.png` into this folder.
+
+To repeat the ablation itself:
+
+The unguarded (OLD) versions of the ten files are in [`unguarded_src/`](unguarded_src/), at the same relative
+paths as in `rSTEMMUS_SCOPE/src/`. They are identical in content to the corresponding files of the original
+[EcoExtreML/rSTEMMUS_SCOPE](https://github.com/EcoExtreML/rSTEMMUS_SCOPE) source (`rSTEMMUS_SCOPE/src.zip`,
+commit `b0e8684`), and they are the files used for both arms above. Every other model file is the same in
+OLD and NEW.
+
+1. Make a second copy of this repository, for example
+   `git clone https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public.git ../rSTEMMUS_SCOPE-unguarded`.
+2. From the root of **this** repository, copy the ten files into that copy:
+
+   ```bash
+   Rscript 2026Contributions/docs/guard_ablation/make_unguarded_copy.R ../rSTEMMUS_SCOPE-unguarded
+   ```
+
+   The script refuses to overwrite the repository it is run from, so the guarded build stays intact.
+3. Run the same two-year DE-STG script in both copies with an identical configuration (same soil parameters,
+   soil initialisation and forcing; only the output folder differs), for example
+   `2026Contributions/scripts/runs/run_2yr_final_with_soilprops.R` with `exe_method` set to `"matlab"` or
+   `"octave"`. A two-year run takes about 1.3 h on MATLAB and about 9 h on Octave.
+4. Compare the two output folders (soil moisture at 60 cm in `Sim_Theta.csv`, latent heat in `fluxes.csv`).
