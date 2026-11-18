@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "rSTEMMUS_SCOPE: Octave/MATLAB/MCR multi-engine execution of STEMMUS-SCOPE from R"
+type: software
+version: 1.0.1
+license: GPL-3.0-only
+repository-code: "https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public"
+authors:
+  - family-names: Shirzad
+    given-names: Arman
+  - family-names: Aljoumani
+    given-names: Basem
+    affiliation: "Technische Universität Berlin"
+references:
+  - type: software
+    title: "rSTEMMUS_SCOPE"
+    authors:
+      - family-names: Duarte Rocha
+        given-names: Alby
+    repository-code: "https://github.com/EcoExtreML/rSTEMMUS_SCOPE"
