@@ -2,12 +2,12 @@ Package: rSTEMMUSSCOPE
 Type: Package
 Title: Run STEMMUS-SCOPE model through R
 Version: 1.0.1
-Author: Alby Duarte Rocha [aut] (original rSTEMMUS_SCOPE package), Arman Shirzad [aut, cre], Basem Aljoumani [aut]
+Author: Alby Duarte Rocha [aut] (original rSTEMMUS_SCOPE package), Basem Aljoumani [aut], Arman Shirzad [aut, cre]
 Authors@R: c(
     person("Alby", "Duarte Rocha", email = "a.duarterocha@tu-berlin.de", role = "aut",
            comment = c(ORCID = "0000-0001-6370-1240", note = "original rSTEMMUS_SCOPE package")),
-    person("Arman", "Shirzad", email = "armanshirzad1998@gmail.com", role = c("aut", "cre")),
-    person("Basem", "Aljoumani", role = "aut"))
+    person("Basem", "Aljoumani", role = "aut"),
+    person("Arman", "Shirzad", email = "armanshirzad1998@gmail.com", role = c("aut", "cre")))
 Maintainer: Arman Shirzad <armanshirzad1998@gmail.com>
 Description: This package compile functions to run STEMMUS-SCOPE by preparing and selecting inputs parameters (variables and constants) and model setting.
 License: GPL (>= 3)

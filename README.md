@@ -1,5 +1,10 @@
 # rSTEMMUS_SCOPE
 
+> **Which version to use.** This repository is where rSTEMMUS_SCOPE is developed and maintained. Releases are
+> archived on Zenodo from [BasemAljoumani/rSTEMMUS_SCOPE](https://github.com/BasemAljoumani/rSTEMMUS_SCOPE).
+> To reproduce Aljoumani et al. (Computers & Geosciences), use the release cited in the paper's Software/Data
+> Availability section (Zenodo DOI), not the latest code here.
+
 Run the STEMMUS_SCOPE model from R. STEMMUS_SCOPE couples SCOPE, a radiative transfer and energy balance
 model (see https://github.com/AlbyDR/rSCOPE), with STEMMUS, a two-phase mass and heat transfer model in the
 soil. For the coupling itself see this [reference](https://gmd.copernicus.org/articles/14/1379/2021/) and the
@@ -569,7 +574,7 @@ To validate the multi-core architectural overhaul, a **5-core Parallel Smoke Tes
 
 If you use this code, please cite the archived software release and the accompanying manuscript:
 
-- Shirzad, A., & Aljoumani, B. (2026). *rSTEMMUS_SCOPE: Octave/MATLAB/MCR multi-engine execution of
+- Aljoumani, B., & Shirzad, A. (2026). *rSTEMMUS_SCOPE: Octave/MATLAB/MCR multi-engine execution of
   STEMMUS-SCOPE from R* [Computer software]. Zenodo. DOI: see the Zenodo badge of the release used.
 - Aljoumani, B., Shirzad, A., Duarte Rocha, A., Zeng, Y., Meier, F., & Wallis, C. I. B. *Beyond numerical
   parity: a process-based framework for verifying cross-platform ports of coupled ecohydrological models,

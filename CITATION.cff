@@ -6,11 +6,11 @@ version: 1.0.1
 license: GPL-3.0-only
 repository-code: "https://github.com/ArmanShirzad/rSTEMMUS_SCOPE-public"
 authors:
-  - family-names: Shirzad
-    given-names: Arman
   - family-names: Aljoumani
     given-names: Basem
     affiliation: "Technische Universität Berlin"
+  - family-names: Shirzad
+    given-names: Arman
 references:
   - type: software
     title: "rSTEMMUS_SCOPE"
